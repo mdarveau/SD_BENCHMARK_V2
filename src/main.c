@@ -123,13 +123,16 @@ static void bench_vfs_fread(const char* path) {
     fclose(fp);
 }
 
+static void dump_card_state(const sdmmc_card_t* c, const char* tag) {
+    // Rely on ESP-IDF helper to print parsed card info safely across versions
+    ESP_LOGI(TAG, "[%s] sdmmc_card_print_info:", tag);
+    sdmmc_card_print_info(stdout, c);
+    ESP_LOGI(TAG, "[%s] max_freq_khz=%d", tag, c->max_freq_khz);
+}
+
 /* ---- SD init/mount (SPI @ 20 MHz, stronger drive) ---- */
 static esp_err_t init_and_mount_sdcard_at(int max_freq_khz) {
     ESP_LOGI(TAG, "Initializing SD (SPI mode) @ %d kHz...", max_freq_khz);
-    // Uncomment for retry diagnostics:
-    // esp_log_level_set("sdspi_transaction", ESP_LOG_INFO);
-    // esp_log_level_set("sdspi_host", ESP_LOG_INFO);
-
     sdmmc_host_t host = SDSPI_HOST_DEFAULT();
     host.slot = s_host_slot;     // HSPI
     host.max_freq_khz = max_freq_khz;
@@ -207,28 +210,33 @@ static void unmount_and_free_bus(void) {
 /* ---- Run it in a modest stack to free INTERNAL RAM ---- */
 static void bench_task(void* arg) {
     // Warmup  
+    ESP_LOGI(TAG, "=== FIRST MOUNT ===");
     if (init_and_mount_sdcard_at(26000) != ESP_OK) { vTaskDelete(NULL); return; }
-    list_files(MOUNT_POINT);
+    dump_card_state(s_card, "first");
+    // list_files(MOUNT_POINT);
     bench_vfs_fread(TEST_FILE_VFS_LARGE);
-    bench_vfs_fread(TEST_FILE_VFS_SMALL);
-    bench_vfs_fread(TEST_FILE_VFS_LARGE);
-    bench_vfs_fread(TEST_FILE_VFS_SMALL);
     unmount_and_free_bus();
     ESP_LOGI(TAG, "Warmup complete.");
 
     // Bench run
+    ESP_LOGI(TAG, "=== SECOND MOUNT ===");
     if (init_and_mount_sdcard_at(26000) != ESP_OK) { vTaskDelete(NULL); return; }
-    list_files(MOUNT_POINT);
+    dump_card_state(s_card, "second");
+    // list_files(MOUNT_POINT);
     bench_vfs_fread(TEST_FILE_VFS_LARGE);
-    bench_vfs_fread(TEST_FILE_VFS_SMALL);
-    bench_vfs_fread(TEST_FILE_VFS_LARGE);
-    bench_vfs_fread(TEST_FILE_VFS_SMALL);
     unmount_and_free_bus();
     ESP_LOGI(TAG, "Bench complete.");
     vTaskDelete(NULL);
 }
 
 void app_main(void) {
+    esp_log_level_set("*", ESP_LOG_INFO);           // allow INFO for all tags
+    esp_log_level_set(TAG, ESP_LOG_INFO); 
+    esp_log_level_set("sdspi_transaction", ESP_LOG_DEBUG);
+    esp_log_level_set("sdspi_host",        ESP_LOG_DEBUG);
+    esp_log_level_set("sdmmc_cmd",         ESP_LOG_DEBUG);
+    esp_log_level_set("vfs_fat_sdmmc",     ESP_LOG_DEBUG);
+    
     // Smaller stack (10 KB) so large INTERNAL buffers are more likely to succeed
     const uint32_t stack_words = (10 * 1024) / sizeof(StackType_t);
     xTaskCreatePinnedToCore(bench_task, "bench_task", stack_words, NULL, tskIDLE_PRIORITY+1, NULL, tskNO_AFFINITY);
