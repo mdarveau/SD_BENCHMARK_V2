@@ -1,0 +1,970 @@
+�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xx�x�x�xxx�x��xName: SD32G
+22:09:36.040 > Type: SDHC
+22:09:36.040 > Speed: Name: SD32G
+22:09:36.040 > Type: SDHC
+22:09:36.040 > Speed: Name: SD32G
+22:09:36.040 > Type: SDHC
+22:09:36.040 > Speed: Name: SD32G
+22:09:36.040 > Type: SDHC
+22:09:36.040 > Speed: Name: SD32G
+22:09:36.040 > Type: SDHC
+22:09:36.040 > Speed: Name: SD32G
+22:09:36.040 > Type: SDHC
+22:09:36.040 > Speed: Name: SD32G
+22:09:36.040 > Type: SDHC
+22:09:36.040 > Speed: Name: SD32G
+22:09:36.040 > Type: SDHC
+22:09:36.040 > Speed: Name: SD32G
+22:09:36.040 > Type: SDHC
+22:09:36.040 > Speed: Name: SD32G
+22:09:36.040 > Type: SDHC
+22:09:36.040 > Speed: Name: SD32G
+22:09:36.040 > Type: SDHC
+22:09:36.040 > Speed: Name: SD32G
+22:09:36.040 > Type: SDHC
+22:09:36.040 > Speed: Name: SD32G
+22:09:36.041 > Type: SDHC
+22:09:36.041 > Speed: Name: SD32G
+22:09:36.041 > Type: SDHC
+22:09:36.041 > Speed: Name: SD32G
+22:09:36.041 > Type: SDHC
+22:09:36.041 > Speed: Name: SD32G
+22:09:36.041 > Type: SDHC
+22:09:36.041 > Speed: Name: SD32G
+22:09:36.041 > Type: SDHC
+22:09:36.041 > Speed: Name: SD32G
+22:09:36.041 > Type: SDHC
+22:09:36.041 > Speed: Name: SD32G
+22:09:36.041 > Type: SDHC
+22:09:36.041 > Speed: Name: SD32G
+22:09:36.041 > Type: SDHC
+22:09:36.041 > Speed: Name: SD32G
+22:09:36.041 > Type: SDHC
+22:09:36.041 > Speed: Name: SD32G
+22:09:36.041 > Type: SDHC
+22:09:36.041 > Speed: Name: SD32G
+22:09:36.041 > Type: SDHC
+22:09:36.041 > Speed: Name: SD32G
+22:09:36.041 > Type: SDHC
+22:09:36.041 > Speed: Name: SD32G
+22:09:36.041 > Type: SDHC
+22:09:36.041 > Speed: Name: SD32G
+22:09:36.042 > Type: SDHC
+22:09:36.042 > Speed: Name: SD32G
+22:09:36.042 > Type: SDHC
+22:09:36.042 > Speed: Name: SD32G
+22:09:36.042 > Type: SDHC
+22:09:36.042 > Speed: Name: SD32G
+22:09:36.042 > Type: SDHC
+22:09:36.042 > Speed: Name: SD32G
+22:09:36.042 > Type: SDHC
+22:09:36.042 > Speed: Name: SD32G
+22:09:36.042 > Type: SDHC
+22:09:36.042 > Speed: Name: SD32G
+22:09:36.042 > Type: SDHC
+22:09:36.042 > Speed: Name: SD32G
+22:09:36.042 > Type: SDHC
+22:09:36.042 > Speed: Name: SD32G
+22:09:36.042 > Type: SDHC
+22:09:36.042 > Speed: Name: SD32G
+22:09:36.042 > Type: SDHC
+22:09:36.042 > Speed: Name: SD32G
+22:09:36.042 > Type: S.00 MHz)
+22:09:36.042 > Si20.00 MHz (limit: 20.00 MHz)
+22:09:36.042 > Si20.00 MHz (limit: 20.00 MHz)
+22:09:36.042 > Si20.00 MHz (limit: 20.00 MHz)
+22:09:36.043 > Si20.00 MHz (limit: 20.00 MHz)
+22:09:36.043 > Si20.00 MHz (limit: 20.00 MHz)
+22:09:36.043 > Si20.00 MHz (limit: 20.00 MHz)
+22:09:36.043 > Si20.00 MHz (limit: 20.00 MHz)
+22:09:36.043 > Si20.00 MHz (limit: 20.00 MHz)
+22:09:36.043 > Si20.00 MHz (limit: 20.00 MHz)
+22:09:36.043 > Si20.00 MHz (limit: 20.00 MHz)
+22:09:36.043 > Si20.00 MHz (limit: 20.00 MHz)
+22:09:36.043 > Si20.00 MHz (limit: 20.00 MHz)
+22:09:36.043 > Si20.00 MHz (limit: 20.00 MHz)
+22:09:36.043 > Si20.00 MHz (limit: 20.00 MHz)
+22:09:36.043 > Si20.00 MHz (limit: 20.00 MHz)
+22:09:36.043 > Si20.00 MHz (limit: 20.00 MHz)
+22:09:36.044 > Si20.00 MHz (limit: 20.00 MHz)
+22:09:36.044 > Si20.00 MHz (limit: 20.00 MHz)
+22:09:36.044 > Si20.00 MHz (limit: 20.00 MHz)
+22:09:36.044 > Si20.00 MHz (limit: 20.00 MHz)
+22:09:36.044 > Si20.00 MHz (limit: 20.00 MHz)
+22:09:36.044 > Si20.00 MHz (limit: 20.00 MHz)
+22:09:36.044 > Si20.00 MHz (limit: 20.00 MHz)
+22:09:36.044 > Si20.00 MHz (limit: 20.00 MHz)
+22:09:36.044 > Si20.00 MHz (limit: 20.00 MHz)
+22:09:36.044 > Si20.00 MHz (limit: 20.00 MHz)
+22:09:36.044 > Si20.00 MHz (limit: 20.00 MHz)
+22:09:36.044 > Si20.00 MHz (limit: 20.00 MHz)
+22:09:36.044 > Si20.00 MHz (limit: 20.00 MHz)
+22:09:36.044 > Si20.00 MHz (limit: 20.00 MHz)
+22:09:36.045 > Si20.00 MHz (limit: 20.00 MHz)
+22:09:36.045 > Si20.00 MHz (limit: 20.00 MHz)
+22:09:36.045 > Si20.00 MHz (limit: 20.00 MHz)
+22:09:36.045 > Si20.00 MHz (limit: 20.00 MHz)
+22:09:36.045 > Si20.00 MHz (limit: 20.00 MHz)
+22:09:36.045 > Si20.00 MHz (limit: 20.00 MHz)
+22:09:36.045 > Size: 30436MB
+22:09:36.045 > CSD: ver=2, sector_size=512, capacity=62333952 read_bl_len=9
+22:09:36.051 > SSR: bus_width=1
+22:09:36.051 > I (1472) SD_BENCH: card->max_freq_khz=20000 (host asked 26000)
+22:09:36.130 > I (1562) SD_BENCH: VFS stdio buffer: 64 KB (INTERNAL)
+22:09:36.133 > I (1562) SD_BENCH: VFS fread chunk: 32 KB
+22:09:36.138 > I (1562) SD_BENCH: VFS fread: /sdcard/BACKGR~3.WAV in 32 KB chunks...
+22:09:36.175 > Guru Meditation Error: Core  0 panic'ed (LoadStoreError). Exception was unhandled.
+22:09:36.180 > 
+22:09:36.180 > Core  0 register dump:
+22:09:36.183 > PC      : 0x4000c2a3  PS      : 0x00060130  A0      : 0x800d7b39  A1      : 0x3ffb72a0  
+22:09:36.202 > A2      : 0x4008f83d  A3      : 0x3ffe092d  A4      : 0x000001fa  A5      : 0x4008f83d  
+22:09:36.211 > A6      : 0x00000069  A7      : 0x00000001  A8      : 0xc0000000  A9      : 0x3ffb7250  
+22:09:36.218 > A10     : 0x00000000  A11     : 0x00000003  A12     : 0x00000001  A13     : 0x3ffb739c  
+22:09:36.226 > A14     : 0x00000040  A15     : 0x3ffb33f4  SAR     : 0x00000018  EXCCAUSE: 0x00000003  
+22:09:36.233 > EXCVADDR: 0x4008f83d  LBEG    : 0x4000c349  LEND    : 0x4000c36b  LCOUNT  : 0xffffffff  
+22:09:36.240 > 
+22:09:36.240 > 
+22:09:36.240 > Backtrace: 0x4000c2a0:0x3ffb72a0 0x400d7b36:0x3ffb72b0 0x400d7f16:0x3ffb7360 0x400d8212:0x3ffb7390 0x400f4a25:0x3ffb73d0 0x400dfba8:0x3ffb73f0 0x400dfc6d:0x3ffb7460 0x400d4ae8:0x3ffb74a0 0x400d20ea:0x3ffb74c0 0x400d36b0:0x3ffb74e0 0x400d5acd:0x3ffb7520 0x400e291a:0x3ffb7550 0x4000bdbb:0x3ffb7570 0x40001125:0x3ffb7590 0x400e36ce:0x3ffb75b0 0x400e3426:0x3ffb75d0 0x400e34a9:0x3ffb7600 0x400d18ce:0x3ffb7620 0x400d1af7:0x3ffb7670 0x40087755:0x3ffb7690
+22:09:36.670 >   #0  0x400d7b36 in start_command_read_blocks at /Users/manueldarveau/.platformio/packages/framework-espidf/components/esp_driver_sdspi/src/sdspi_host.c:802
+22:09:36.670 >   #1  0x400d7f16 in sdspi_host_start_command at /Users/manueldarveau/.platformio/packages/framework-espidf/components/esp_driver_sdspi/src/sdspi_host.c:495
+22:09:36.670 >   #2  0x400d8212 in sdspi_host_do_transaction at /Users/manueldarveau/.platformio/packages/framework-espidf/components/esp_driver_sdspi/src/sdspi_transaction.c:153
+22:09:36.670 >   #3  0x400f4a25 in sdmmc_send_cmd at /Users/manueldarveau/.platformio/packages/framework-espidf/components/sdmmc/sdmmc_cmd.c:24
+22:09:36.670 >   #4  0x400dfba8 in sdmmc_read_sectors_dma at /Users/manueldarveau/.platformio/packages/framework-espidf/components/sdmmc/sdmmc_cmd.c:656
+22:09:36.670 >   #5  0x400dfc6d in sdmmc_read_sectors at /Users/manueldarveau/.platformio/packages/framework-espidf/components/sdmmc/sdmmc_cmd.c:600
+22:09:36.670 >   #6  0x400d4ae8 in ff_sdmmc_read at /Users/manueldarveau/.platformio/packages/framework-espidf/components/fatfs/diskio/diskio_sdmmc.c:54
+22:09:36.670 >   #7  0x400d20ea in ff_disk_read at /Users/manueldarveau/.platformio/packages/framework-espidf/components/fatfs/diskio/diskio.c:96
+22:09:36.670 >   #8  0x400d36b0 in f_read at /Users/manueldarveau/.platformio/packages/framework-espidf/components/fatfs/src/ff.c:4002
+22:09:36.670 >   #9  0x400d5acd in vfs_fat_read at /Users/manueldarveau/.platformio/packages/framework-espidf/components/fatfs/vfs/vfs_fat.c:491
+22:09:36.670 >   #10 0x400e291a in esp_vfs_read at /Users/manueldarveau/.platformio/packages/framework-espidf/components/vfs/vfs.c:1008 (discriminator 3)
+22:09:36.670 >   #11 0x400e36ce in __srefill_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/refill.c:115
+22:09:36.670 >   #12 0x400e3426 in _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:228
+22:09:36.670 >   #13 0x400e34a9 in fread at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:266 (discriminator 1)
+22:09:36.670 >   #14 0x400d18ce in bench_vfs_fread at src/main.c:112
+22:09:36.670 >   #15 0x400d1af7 in bench_task at src/main.c:203
+22:09:36.670 >   #16 0x40087755 in vPortTaskWrapper at /Users/manueldarveau/.platformio/packages/framework-espidf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+22:09:36.670 > 
+22:09:36.670 > 
+22:09:36.670 > 
+22:09:36.670 > 
+22:09:36.670 > 
+22:09:36.670 > ELF file SHA256: 6a604ddf2
+22:09:36.742 > 
+22:09:36.742 > Rebooting...
+22:09:36.742 > ets Jul 29 2019 12:21:46
+22:09:36.742 > 
+22:09:36.742 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+22:09:36.742 > configsip: 0, SPIWP:0xee
+22:09:36.742 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+22:09:36.742 > mode:DIO, clock div:2
+22:09:36.742 > load:0x3fff0030,len:6380
+22:09:36.742 > ho 0 tail 12 room 4
+22:09:36.742 > load:0x40078000,len:15916
+22:09:36.742 > load:0x40080400,len:3860
+22:09:36.742 >   #0  0x40080400 in _invalid_pc_placeholder at /Users/manueldarveau/.platformio/packages/framework-espidf/components/xtensa/xtensa_vectors.S:2235
+22:09:36.742 > 
+22:09:36.742 > entry 0x40080630
+22:09:36.742 > I (29) boot: ESP-IDF 5.5.0 2nd stage bootloader
+22:09:36.742 > I (29) boot: compile time Oct 27 2025 22:08:45
+22:09:36.742 > I (29) boot: Multicore bootloader
+22:09:36.742 > I (30) boot: chip revision: v3.1
+22:09:36.742 > I (33) boot.esp32: SPI Speed      : 40MHz
+22:09:36.742 > I (37) boot.esp32: SPI Mode       : DIO
+22:09:36.742 > I (40) boot.esp32: SPI Flash Size : 4MB
+22:09:36.742 > I (44) boot: Enabling RNG early entropy source...
+22:09:36.742 > I (49) boot: Partition Table:
+22:09:36.742 > I (51) boot: ## Label            Usage          Type ST Offset   Length
+22:09:36.742 > I (57) boot:  0 nvs              WiFi data        01 02 00009000 00006000
+22:09:36.742 > I (64) boot:  1 phy_init         RF data          01 01 0000f000 00001000
+22:09:36.742 > I (71) boot:  2 factory          factory app      00 00 00010000 00100000
+22:09:36.742 > I (77) boot: End of partition table
+22:09:36.742 > I (80) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=0e89ch ( 59548) map
+22:09:36.742 > I (108) esp_image: segment 1: paddr=0001e8c4 vaddr=3ff80000 size=00020h (    32) load
+22:09:36.742 > I (108) esp_image: segment 2: paddr=0001e8ec vaddr=3ffb0000 size=0172ch (  5932) load
+22:09:36.742 > I (114) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=262fch (156412) map
+22:09:36.742 > I (173) esp_image: segment 4: paddr=00046324 vaddr=3ffb172c size=00ebch (  3772) load
+22:09:36.742 > I (175) esp_image: segment 5: paddr=000471e8 vaddr=40080000 size=0f4b4h ( 62644) load
+22:09:36.742 > I (209) boot: Loaded app from partition at offset 0x10000
+22:09:36.742 > I (209) boot: Disabling RNG early entropy source...
+22:09:36.742 > I (219) cpu_start: Multicore app
+22:09:36.742 > I (228) cpu_start: Pro cpu start user code
+22:09:36.742 > I (228) cpu_start: cpu freq: 160000000 Hz
+22:09:36.742 > I (228) app_init: Application information:
+22:09:36.742 > I (228) app_init: Project name:     SD_BENCHMARK_V2
+22:09:36.742 > I (232) app_init: App version:      7f60942-dirty
+22:09:36.742 > I (237) app_init: Compile time:     Oct 27 2025 22:08:25
+22:09:36.742 > I (242) app_init: ELF file SHA256:  6a604ddf2...
+22:09:36.742 > I (246) app_init: ESP-IDF:          5.5.0
+22:09:36.742 > I (250) efuse_init: Min chip rev:     v0.0
+22:09:36.742 > I (254) efuse_init: Max chip rev:     v3.99 
+22:09:36.742 > I (258) efuse_init: Chip rev:         v3.1
+22:09:36.742 > I (262) heap_init: Initializing. RAM available for dynamic allocation:
+22:09:36.742 > I (268) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM
+22:09:36.742 > I (273) heap_init: At 3FFB2F60 len 0002D0A0 (180 KiB): DRAM
+22:09:36.742 > I (278) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM
+22:09:36.742 > I (284) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM
+22:09:36.742 > I (289) heap_init: At 4008F4B4 len 00010B4C (66 KiB): IRAM
+22:09:36.742 > I (296) spi_flash: detected chip: generic
+22:09:36.742 > I (298) spi_flash: flash io: dio
+22:09:36.742 > I (302) main_task: Started on CPU0
+22:09:36.742 > I (312) main_task: Calling app_main()
+22:09:36.742 > I (312) SD_BENCH: Initializing SD (SPI mode) @ 26000 kHz...
+22:09:36.742 > I (312) main_task: Returned from app_main()
+22:09:36.742 > I (372) sdspi_transaction: cmd=52, R1 response: command not supported
+22:09:36.849 > I (572) sdspi_transaction: cmd=5, R1 response: command not supported
+22:09:37.752 > Name: SD32G
+22:09:37.753 > Type: SDHC
+22:09:37.753 > Speed: 20.00 MHz (limit: 20.00 MHz)
+22:09:37.756 > Size: 30436MB
+22:09:37.758 > CSD: ver=2, sector_size=512, capacity=62333952 read_bl_len=9
+22:09:37.763 > SSR: bus_width=1
+22:09:37.763 > I (1472) SD_BENCH: card->max_freq_khz=20000 (host asked 26000)
+22:09:37.842 > I (1562) SD_BENCH: VFS stdio buffer: 64 KB (INTERNAL)
+22:09:37.845 > I (1562) SD_BENCH: VFS fread chunk: 32 KB
+22:09:37.851 > I (1562) SD_BENCH: VFS fread: /sdcard/BACKGR~3.WAV in 32 KB chunks...
+22:09:37.887 > Guru Meditation Error: Core  0 panic'ed (LoadStoreError). Exception was unhandled.
+22:09:37.892 > 
+22:09:37.892 > Core  0 register dump:
+22:09:37.895 > PC      : 0x4000c2a3  PS      : 0x00060130  A0      : 0x800d7b39  A1      : 0x3ffb72a0  
+22:09:37.916 > A2      : 0x4008f83f  A3      : 0x3ffe092d  A4      : 0x000001f8  A5      : 0x4008f83f  
+22:09:37.926 > A6      : 0x00000000  A7      : 0x00000001  A8      : 0x40000000  A9      : 0x3ffb7250  
+22:09:37.943 > A10     : 0x00000000  A11     : 0x00000001  A12     : 0x00000001  A13     : 0x3ffb739e  
+22:09:37.943 > A14     : 0x00000011  A15     : 0x3ffb33f4  SAR     : 0x00000008  EXCCAUSE: 0x00000003  
+22:09:37.957 > EXCVADDR: 0x4008f83f  LBEG    : 0x4000c349  LEND    : 0x4000c36b  LCOUNT  : 0xffffffff  
+22:09:37.957 > 
+22:09:37.957 > 
+22:09:37.957 > Backtrace: 0x4000c2a0:0x3ffb72a0 0x400d7b36:0x3ffb72b0 0x400d7f16:0x3ffb7360 0x400d8212:0x3ffb7390 0x400f4a25:0x3ffb73d0 0x400dfba8:0x3ffb73f0 0x400dfc6d:0x3ffb7460 0x400d4ae8:0x3ffb74a0 0x400d20ea:0x3ffb74c0 0x400d36b0:0x3ffb74e0 0x400d5acd:0x3ffb7520 0x400e291a:0x3ffb7550 0x4000bdbb:0x3ffb7570 0x40001125:0x3ffb7590 0x400e36ce:0x3ffb75b0 0x400e3426:0x3ffb75d0 0x400e34a9:0x3ffb7600 0x400d18ce:0x3ffb7620 0x400d1af7:0x3ffb7670 0x40087755:0x3ffb7690
+22:09:38.366 >   #0  0x400d7b36 in start_command_read_blocks at /Users/manueldarveau/.platformio/packages/framework-espidf/components/esp_driver_sdspi/src/sdspi_host.c:802
+22:09:38.366 >   #1  0x400d7f16 in sdspi_host_start_command at /Users/manueldarveau/.platformio/packages/framework-espidf/components/esp_driver_sdspi/src/sdspi_host.c:495
+22:09:38.366 >   #2  0x400d8212 in sdspi_host_do_transaction at /Users/manueldarveau/.platformio/packages/framework-espidf/components/esp_driver_sdspi/src/sdspi_transaction.c:153
+22:09:38.366 >   #3  0x400f4a25 in sdmmc_send_cmd at /Users/manueldarveau/.platformio/packages/framework-espidf/components/sdmmc/sdmmc_cmd.c:24
+22:09:38.366 >   #4  0x400dfba8 in sdmmc_read_sectors_dma at /Users/manueldarveau/.platformio/packages/framework-espidf/components/sdmmc/sdmmc_cmd.c:656
+22:09:38.366 >   #5  0x400dfc6d in sdmmc_read_sectors at /Users/manueldarveau/.platformio/packages/framework-espidf/components/sdmmc/sdmmc_cmd.c:600
+22:09:38.366 >   #6  0x400d4ae8 in ff_sdmmc_read at /Users/manueldarveau/.platformio/packages/framework-espidf/components/fatfs/diskio/diskio_sdmmc.c:54
+22:09:38.366 >   #7  0x400d20ea in ff_disk_read at /Users/manueldarveau/.platformio/packages/framework-espidf/components/fatfs/diskio/diskio.c:96
+22:09:38.366 >   #8  0x400d36b0 in f_read at /Users/manueldarveau/.platformio/packages/framework-espidf/components/fatfs/src/ff.c:4002
+22:09:38.366 >   #9  0x400d5acd in vfs_fat_read at /Users/manueldarveau/.platformio/packages/framework-espidf/components/fatfs/vfs/vfs_fat.c:491
+22:09:38.366 >   #10 0x400e291a in esp_vfs_read at /Users/manueldarveau/.platformio/packages/framework-espidf/components/vfs/vfs.c:1008 (discriminator 3)
+22:09:38.366 >   #11 0x400e36ce in __srefill_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/refill.c:115
+22:09:38.366 >   #12 0x400e3426 in _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:228
+22:09:38.366 >   #13 0x400e34a9 in fread at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:266 (discriminator 1)
+22:09:38.366 >   #14 0x400d18ce in bench_vfs_fread at src/main.c:112
+22:09:38.366 >   #15 0x400d1af7 in bench_task at src/main.c:203
+22:09:38.366 >   #16 0x40087755 in vPortTaskWrapper at /Users/manueldarveau/.platformio/packages/framework-espidf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+22:09:38.366 > 
+22:09:38.366 > 
+22:09:38.366 > 
+22:09:38.366 > 
+22:09:38.366 > 
+22:09:38.366 > ELF file SHA256: 6a604ddf2
+22:09:38.438 > 
+22:09:38.438 > Rebooting...
+22:09:38.438 > ets Jul 29 2019 12:21:46
+22:09:38.438 > 
+22:09:38.438 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+22:09:38.438 > configsip: 0, SPIWP:0xee
+22:09:38.438 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+22:09:38.438 > mode:DIO, clock div:2
+22:09:38.438 > load:0x3fff0030,len:6380
+22:09:38.438 > ho 0 tail 12 room 4
+22:09:38.438 > load:0x40078000,len:15916
+22:09:38.438 > load:0x40080400,len:3860
+22:09:38.438 >   #0  0x40080400 in _invalid_pc_placeholder at /Users/manueldarveau/.platformio/packages/framework-espidf/components/xtensa/xtensa_vectors.S:2235
+22:09:38.438 > 
+22:09:38.438 > entry 0x40080630
+22:09:38.438 > I (29) boot: ESP-IDF 5.5.0 2nd stage bootloader
+22:09:38.438 > I (29) boot: compile time Oct 27 2025 22:08:45
+22:09:38.438 > I (29) boot: Multicore bootloader
+22:09:38.438 > I (30) boot: chip revision: v3.1
+22:09:38.438 > I (33) boot.esp32: SPI Speed      : 40MHz
+22:09:38.438 > I (37) boot.esp32: SPI Mode       : DIO
+22:09:38.438 > I (40) boot.esp32: SPI Flash Size : 4MB
+22:09:38.438 > I (44) boot: Enabling RNG early entropy source...
+22:09:38.438 > I (49) boot: Partition Table:
+22:09:38.438 > I (51) boot: ## Label            Usage          Type ST Offset   Length
+22:09:38.438 > I (57) boot:  0 nvs              WiFi data        01 02 00009000 00006000
+22:09:38.438 > I (64) boot:  1 phy_init         RF data          01 01 0000f000 00001000
+22:09:38.438 > I (71) boot:  2 factory          factory app      00 00 00010000 00100000
+22:09:38.438 > I (77) boot: End of partition table
+22:09:38.438 > I (80) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=0e89ch ( 59548) map
+22:09:38.438 > I (108) esp_image: segment 1: paddr=0001e8c4 vaddr=3ff80000 size=00020h (    32) load
+22:09:38.438 > I (108) esp_image: segment 2: paddr=0001e8ec vaddr=3ffb0000 size=0172ch (  5932) load
+22:09:38.438 > I (114) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=262fch (156412) map
+22:09:38.438 > I (173) esp_image: segment 4: paddr=00046324 vaddr=3ffb172c size=00ebch (  3772) load
+22:09:38.438 > I (175) esp_image: segment 5: paddr=000471e8 vaddr=40080000 size=0f4b4h ( 62644) load
+22:09:38.438 > I (209) boot: Loaded app from partition at offset 0x10000
+22:09:38.438 > I (209) boot: Disabling RNG early entropy source...
+22:09:38.438 > I (219) cpu_start: Multicore app
+22:09:38.438 > I (228) cpu_start: Pro cpu start user code
+22:09:38.438 > I (228) cpu_start: cpu freq: 160000000 Hz
+22:09:38.438 > I (228) app_init: Application information:
+22:09:38.438 > I (228) app_init: Project name:     SD_BENCHMARK_V2
+22:09:38.438 > I (232) app_init: App version:      7f60942-dirty
+22:09:38.438 > I (237) app_init: Compile time:     Oct 27 2025 22:08:25
+22:09:38.438 > I (242) app_init: ELF file SHA256:  6a604ddf2...
+22:09:38.438 > I (246) app_init: ESP-IDF:          5.5.0
+22:09:38.438 > I (250) efuse_init: Min chip rev:     v0.0
+22:09:38.438 > I (254) efuse_init: Max chip rev:     v3.99 
+22:09:38.438 > I (258) efuse_init: Chip rev:         v3.1
+22:09:38.438 > I (262) heap_init: Initializing. RAM available for dynamic allocation:
+22:09:38.438 > I (268) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM
+22:09:38.438 > I (273) heap_init: At 3FFB2F60 len 0002D0A0 (180 KiB): DRAM
+22:09:38.438 > I (278) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM
+22:09:38.438 > I (284) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM
+22:09:38.438 > I (289) heap_init: At 4008F4B4 len 00010B4C (66 KiB): IRAM
+22:09:38.438 > I (296) spi_flash: detected chip: generic
+22:09:38.438 > I (298) spi_flash: flash io: dio
+22:09:38.438 > I (302) main_task: Started on CPU0
+22:09:38.438 > I (312) main_task: Calling app_main()
+22:09:38.438 > I (312) SD_BENCH: Initializing SD (SPI mode) @ 26000 kHz...
+22:09:38.438 > I (312) main_task: Returned from app_main()
+22:09:38.438 > I (372) sdspi_transaction: cmd=52, R1 response: command not supported
+22:09:38.561 > I (572) sdspi_transaction: cmd=5, R1 response: command not supported
+22:09:39.465 > Name: SD32G
+22:09:39.465 > Type: SDHC
+22:09:39.465 > Speed: 20.00 MHz (limit: 20.00 MHz)
+22:09:39.468 > Size: 30436MB
+22:09:39.470 > CSD: ver=2, sector_size=512, capacity=62333952 read_bl_len=9
+22:09:39.476 > SSR: bus_width=1
+22:09:39.476 > I (1472) SD_BENCH: card->max_freq_khz=20000 (host asked 26000)
+22:09:39.555 > I (1562) SD_BENCH: VFS stdio buffer: 64 KB (INTERNAL)
+22:09:39.557 > I (1562) SD_BENCH: VFS fread chunk: 32 KB
+22:09:39.563 > I (1562) SD_BENCH: VFS fread: /sdcard/BACKGR~3.WAV in 32 KB chunks...
+22:09:39.599 > Guru Meditation Error: Core  0 panic'ed (LoadStoreError). Exception was unhandled.
+22:09:39.605 > 
+22:09:39.605 > Core  0 register dump:
+22:09:39.608 > PC      : 0x4000c2a3  PS      : 0x00060130  A0      : 0x800d7b39  A1      : 0x3ffb72a0  
+22:09:39.631 > A2      : 0x4008f83f  A3      : 0x3ffe092d  A4      : 0x000001f8  A5      : 0x4008f83f  
+22:09:39.649 > A6      : 0x00000000  A7      : 0x00000001  A8      : 0x40000000  A9      : 0x3ffb7250  
+22:09:39.649 > A10     : 0x00000000  A11     : 0x00000001  A12     : 0x00000001  A13     : 0x3ffb739e  
+22:09:39.664 > A14     : 0x00000011  A15     : 0x3ffb33f4  SAR     : 0x00000008  EXCCAUSE: 0x00000003  
+22:09:39.664 > EXCVADDR: 0x4008f83f  LBEG    : 0x4000c349  LEND    : 0x4000c36b  LCOUNT  : 0xffffffff  
+22:09:39.671 > 
+22:09:39.671 > 
+22:09:39.671 > Backtrace: 0x4000c2a0:0x3ffb72a0 0x400d7b36:0x3ffb72b0 0x400d7f16:0x3ffb7360 0x400d8212:0x3ffb7390 0x400f4a25:0x3ffb73d0 0x400dfba8:0x3ffb73f0 0x400dfc6d:0x3ffb7460 0x400d4ae8:0x3ffb74a0 0x400d20ea:0x3ffb74c0 0x400d36b0:0x3ffb74e0 0x400d5acd:0x3ffb7520 0x400e291a:0x3ffb7550 0x4000bdbb:0x3ffb7570 0x40001125:0x3ffb7590 0x400e36ce:0x3ffb75b0 0x400e3426:0x3ffb75d0 0x400e34a9:0x3ffb7600 0x400d18ce:0x3ffb7620 0x400d1af7:0x3ffb7670 0x40087755:0x3ffb7690
+22:09:40.076 >   #0  0x400d7b36 in start_command_read_blocks at /Users/manueldarveau/.platformio/packages/framework-espidf/components/esp_driver_sdspi/src/sdspi_host.c:802
+22:09:40.076 >   #1  0x400d7f16 in sdspi_host_start_command at /Users/manueldarveau/.platformio/packages/framework-espidf/components/esp_driver_sdspi/src/sdspi_host.c:495
+22:09:40.076 >   #2  0x400d8212 in sdspi_host_do_transaction at /Users/manueldarveau/.platformio/packages/framework-espidf/components/esp_driver_sdspi/src/sdspi_transaction.c:153
+22:09:40.076 >   #3  0x400f4a25 in sdmmc_send_cmd at /Users/manueldarveau/.platformio/packages/framework-espidf/components/sdmmc/sdmmc_cmd.c:24
+22:09:40.076 >   #4  0x400dfba8 in sdmmc_read_sectors_dma at /Users/manueldarveau/.platformio/packages/framework-espidf/components/sdmmc/sdmmc_cmd.c:656
+22:09:40.076 >   #5  0x400dfc6d in sdmmc_read_sectors at /Users/manueldarveau/.platformio/packages/framework-espidf/components/sdmmc/sdmmc_cmd.c:600
+22:09:40.076 >   #6  0x400d4ae8 in ff_sdmmc_read at /Users/manueldarveau/.platformio/packages/framework-espidf/components/fatfs/diskio/diskio_sdmmc.c:54
+22:09:40.076 >   #7  0x400d20ea in ff_disk_read at /Users/manueldarveau/.platformio/packages/framework-espidf/components/fatfs/diskio/diskio.c:96
+22:09:40.076 >   #8  0x400d36b0 in f_read at /Users/manueldarveau/.platformio/packages/framework-espidf/components/fatfs/src/ff.c:4002
+22:09:40.076 >   #9  0x400d5acd in vfs_fat_read at /Users/manueldarveau/.platformio/packages/framework-espidf/components/fatfs/vfs/vfs_fat.c:491
+22:09:40.076 >   #10 0x400e291a in esp_vfs_read at /Users/manueldarveau/.platformio/packages/framework-espidf/components/vfs/vfs.c:1008 (discriminator 3)
+22:09:40.076 >   #11 0x400e36ce in __srefill_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/refill.c:115
+22:09:40.076 >   #12 0x400e3426 in _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:228
+22:09:40.076 >   #13 0x400e34a9 in fread at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:266 (discriminator 1)
+22:09:40.076 >   #14 0x400d18ce in bench_vfs_fread at src/main.c:112
+22:09:40.076 >   #15 0x400d1af7 in bench_task at src/main.c:203
+22:09:40.076 >   #16 0x40087755 in vPortTaskWrapper at /Users/manueldarveau/.platformio/packages/framework-espidf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+22:09:40.076 > 
+22:09:40.076 > 
+22:09:40.076 > 
+22:09:40.076 > 
+22:09:40.076 > 
+22:09:40.076 > ELF file SHA256: 6a604ddf2
+22:09:40.150 > 
+22:09:40.150 > Rebooting...
+22:09:40.150 > ets Jul 29 2019 12:21:46
+22:09:40.150 > 
+22:09:40.150 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+22:09:40.150 > configsip: 0, SPIWP:0xee
+22:09:40.150 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+22:09:40.150 > mode:DIO, clock div:2
+22:09:40.150 > load:0x3fff0030,len:6380
+22:09:40.150 > ho 0 tail 12 room 4
+22:09:40.150 > load:0x40078000,len:15916
+22:09:40.150 > load:0x40080400,len:3860
+22:09:40.150 >   #0  0x40080400 in _invalid_pc_placeholder at /Users/manueldarveau/.platformio/packages/framework-espidf/components/xtensa/xtensa_vectors.S:2235
+22:09:40.150 > 
+22:09:40.150 > entry 0x40080630
+22:09:40.150 > I (29) boot: ESP-IDF 5.5.0 2nd stage bootloader
+22:09:40.150 > I (29) boot: compile time Oct 27 2025 22:08:45
+22:09:40.150 > I (29) boot: Multicore bootloader
+22:09:40.150 > I (30) boot: chip revision: v3.1
+22:09:40.150 > I (33) boot.esp32: SPI Speed      : 40MHz
+22:09:40.150 > I (37) boot.esp32: SPI Mode       : DIO
+22:09:40.150 > I (40) boot.esp32: SPI Flash Size : 4MB
+22:09:40.150 > I (44) boot: Enabling RNG early entropy source...
+22:09:40.150 > I (49) boot: Partition Table:
+22:09:40.150 > I (51) boot: ## Label            Usage          Type ST Offset   Length
+22:09:40.150 > I (57) boot:  0 nvs              WiFi data        01 02 00009000 00006000
+22:09:40.150 > I (64) boot:  1 phy_init         RF data          01 01 0000f000 00001000
+22:09:40.150 > I (71) boot:  2 factory          factory app      00 00 00010000 00100000
+22:09:40.150 > I (77) boot: End of partition table
+22:09:40.150 > I (80) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=0e89ch ( 59548) map
+22:09:40.150 > I (108) esp_image: segment 1: paddr=0001e8c4 vaddr=3ff80000 size=00020h (    32) load
+22:09:40.150 > I (108) esp_image: segment 2: paddr=0001e8ec vaddr=3ffb0000 size=0172ch (  5932) load
+22:09:40.150 > I (114) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=262fch (156412) map
+22:09:40.150 > I (173) esp_image: segment 4: paddr=00046324 vaddr=3ffb172c size=00ebch (  3772) load
+22:09:40.150 > I (175) esp_image: segment 5: paddr=000471e8 vaddr=40080000 size=0f4b4h ( 62644) load
+22:09:40.150 > I (209) boot: Loaded app from partition at offset 0x10000
+22:09:40.150 > I (209) boot: Disabling RNG early entropy source...
+22:09:40.150 > I (219) cpu_start: Multicore app
+22:09:40.150 > I (228) cpu_start: Pro cpu start user code
+22:09:40.150 > I (228) cpu_start: cpu freq: 160000000 Hz
+22:09:40.150 > I (228) app_init: Application information:
+22:09:40.150 > I (228) app_init: Project name:     SD_BENCHMARK_V2
+22:09:40.150 > I (232) app_init: App version:      7f60942-dirty
+22:09:40.150 > I (237) app_init: Compile time:     Oct 27 2025 22:08:25
+22:09:40.150 > I (242) app_init: ELF file SHA256:  6a604ddf2...
+22:09:40.150 > I (246) app_init: ESP-IDF:          5.5.0
+22:09:40.150 > I (250) efuse_init: Min chip rev:     v0.0
+22:09:40.150 > I (254) efuse_init: Max chip rev:     v3.99 
+22:09:40.150 > I (258) efuse_init: Chip rev:         v3.1
+22:09:40.150 > I (262) heap_init: Initializing. RAM available for dynamic allocation:
+22:09:40.150 > I (268) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM
+22:09:40.150 > I (273) heap_init: At 3FFB2F60 len 0002D0A0 (180 KiB): DRAM
+22:09:40.150 > I (278) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM
+22:09:40.150 > I (284) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM
+22:09:40.150 > I (289) heap_init: At 4008F4B4 len 00010B4C (66 KiB): IRAM
+22:09:40.150 > I (296) spi_flash: detected chip: generic
+22:09:40.150 > I (298) spi_flash: flash io: dio
+22:09:40.150 > I (302) main_task: Started on CPU0
+22:09:40.150 > I (312) main_task: Calling app_main()
+22:09:40.150 > I (312) SD_BENCH: Initializing SD (SPI mode) @ 26000 kHz...
+22:09:40.150 > I (312) main_task: Returned from app_main()
+22:09:40.150 > I (372) sdspi_transaction: cmd=52, R1 response: command not supported
+22:09:40.273 > I (572) sdspi_transaction: cmd=5, R1 response: command not supported
+22:09:41.177 > Name: SD32G
+22:09:41.178 > Type: SDHC
+22:09:41.178 > Speed: 20.00 MHz (limit: 20.00 MHz)
+22:09:41.180 > Size: 30436MB
+22:09:41.183 > CSD: ver=2, sector_size=512, capacity=62333952 read_bl_len=9
+22:09:41.189 > SSR: bus_width=1
+22:09:41.189 > I (1472) SD_BENCH: card->max_freq_khz=20000 (host asked 26000)
+22:09:41.268 > I (1562) SD_BENCH: VFS stdio buffer: 64 KB (INTERNAL)
+22:09:41.270 > I (1562) SD_BENCH: VFS fread chunk: 32 KB
+22:09:41.276 > I (1562) SD_BENCH: VFS fread: /sdcard/BACKGR~3.WAV in 32 KB chunks...
+22:09:41.312 > Guru Meditation Error: Core  0 panic'ed (LoadStoreError). Exception was unhandled.
+22:09:41.317 > 
+22:09:41.317 > Core  0 register dump:
+22:09:41.320 > PC      : 0x4005d0b2  PS      : 0x00060130  A0      : 0x800d8304  A1      : 0x3ffb7270  
+22:09:41.342 > A2      : 0xffff0000  A3      : 0x4008f838  A4      : 0x00000200  A5      : 0x3ffb7398  
+22:09:41.359 > A6      : 0x00000082  A7      : 0x3ffb33f4  A8      : 0x00000000  A9      : 0x00000000  
+22:09:41.359 > A10     : 0x3ff994dc  A11     : 0x4008f838  A12     : 0xffffffff  A13     : 0x00000001  
+22:09:41.366 > A14     : 0x00000000  A15     : 0x3ffb72e8  SAR     : 0x00000020  EXCCAUSE: 0x00000003  
+22:09:41.373 > EXCVADDR: 0x4008f838  LBEG    : 0x4000c2e0  LEND    : 0x4000c2f6  LCOUNT  : 0x00000000  
+22:09:41.380 > 
+22:09:41.380 > 
+22:09:41.380 > Backtrace: 0x4005d0af:0x3ffb7270 0x400d8301:0x3ffb7290 0x400d7b61:0x3ffb72b0 0x400d7f16:0x3ffb7360 0x400d8212:0x3ffb7390 0x400f4a25:0x3ffb73d0 0x400dfba8:0x3ffb73f0 0x400dfc6d:0x3ffb7460 0x400d4ae8:0x3ffb74a0 0x400d20ea:0x3ffb74c0 0x400d36b0:0x3ffb74e0 0x400d5acd:0x3ffb7520 0x400e291a:0x3ffb7550 0x4000bdbb:0x3ffb7570 0x40001125:0x3ffb7590 0x400e36ce:0x3ffb75b0 0x400e3426:0x3ffb75d0 0x400e34a9:0x3ffb7600 0x400d18ce:0x3ffb7620 0x400d1af7:0x3ffb7670 0x40087755:0x3ffb7690
+22:09:41.812 >   #0  0x400d8301 in sdspi_crc16 at /Users/manueldarveau/.platformio/packages/framework-espidf/components/esp_driver_sdspi/src/sdspi_crc.c:44
+22:09:41.812 >   #1  0x400d7b61 in start_command_read_blocks at /Users/manueldarveau/.platformio/packages/framework-espidf/components/esp_driver_sdspi/src/sdspi_host.c:810
+22:09:41.812 >   #2  0x400d7f16 in sdspi_host_start_command at /Users/manueldarveau/.platformio/packages/framework-espidf/components/esp_driver_sdspi/src/sdspi_host.c:495
+22:09:41.812 >   #3  0x400d8212 in sdspi_host_do_transaction at /Users/manueldarveau/.platformio/packages/framework-espidf/components/esp_driver_sdspi/src/sdspi_transaction.c:153
+22:09:41.812 >   #4  0x400f4a25 in sdmmc_send_cmd at /Users/manueldarveau/.platformio/packages/framework-espidf/components/sdmmc/sdmmc_cmd.c:24
+22:09:41.812 >   #5  0x400dfba8 in sdmmc_read_sectors_dma at /Users/manueldarveau/.platformio/packages/framework-espidf/components/sdmmc/sdmmc_cmd.c:656
+22:09:41.812 >   #6  0x400dfc6d in sdmmc_read_sectors at /Users/manueldarveau/.platformio/packages/framework-espidf/components/sdmmc/sdmmc_cmd.c:600
+22:09:41.812 >   #7  0x400d4ae8 in ff_sdmmc_read at /Users/manueldarveau/.platformio/packages/framework-espidf/components/fatfs/diskio/diskio_sdmmc.c:54
+22:09:41.812 >   #8  0x400d20ea in ff_disk_read at /Users/manueldarveau/.platformio/packages/framework-espidf/components/fatfs/diskio/diskio.c:96
+22:09:41.812 >   #9  0x400d36b0 in f_read at /Users/manueldarveau/.platformio/packages/framework-espidf/components/fatfs/src/ff.c:4002
+22:09:41.812 >   #10 0x400d5acd in vfs_fat_read at /Users/manueldarveau/.platformio/packages/framework-espidf/components/fatfs/vfs/vfs_fat.c:491
+22:09:41.812 >   #11 0x400e291a in esp_vfs_read at /Users/manueldarveau/.platformio/packages/framework-espidf/components/vfs/vfs.c:1008 (discriminator 3)
+22:09:41.812 >   #12 0x400e36ce in __srefill_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/refill.c:115
+22:09:41.812 >   #13 0x400e3426 in _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:228
+22:09:41.812 >   #14 0x400e34a9 in fread at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:266 (discriminator 1)
+22:09:41.812 >   #15 0x400d18ce in bench_vfs_fread at src/main.c:112
+22:09:41.812 >   #16 0x400d1af7 in bench_task at src/main.c:203
+22:09:41.812 >   #17 0x40087755 in vPortTaskWrapper at /Users/manueldarveau/.platformio/packages/framework-espidf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+22:09:41.812 > 
+22:09:41.812 > 
+22:09:41.812 > 
+22:09:41.812 > 
+22:09:41.812 > 
+22:09:41.812 > ELF file SHA256: 6a604ddf2
+22:09:41.884 > 
+22:09:41.884 > Rebooting...
+22:09:41.884 > ets Jul 29 2019 12:21:46
+22:09:41.884 > 
+22:09:41.884 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+22:09:41.884 > configsip: 0, SPIWP:0xee
+22:09:41.884 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+22:09:41.884 > mode:DIO, clock div:2
+22:09:41.884 > load:0x3fff0030,len:6380
+22:09:41.884 > ho 0 tail 12 room 4
+22:09:41.884 > load:0x40078000,len:15916
+22:09:41.884 > load:0x40080400,len:3860
+22:09:41.884 >   #0  0x40080400 in _invalid_pc_placeholder at /Users/manueldarveau/.platformio/packages/framework-espidf/components/xtensa/xtensa_vectors.S:2235
+22:09:41.884 > 
+22:09:41.884 > entry 0x40080630
+22:09:41.884 > I (29) boot: ESP-IDF 5.5.0 2nd stage bootloader
+22:09:41.884 > I (29) boot: compile time Oct 27 2025 22:08:45
+22:09:41.884 > I (29) boot: Multicore bootloader
+22:09:41.884 > I (30) boot: chip revision: v3.1
+22:09:41.884 > I (33) boot.esp32: SPI Speed      : 40MHz
+22:09:41.884 > I (37) boot.esp32: SPI Mode       : DIO
+22:09:41.884 > I (40) boot.esp32: SPI Flash Size : 4MB
+22:09:41.884 > I (44) boot: Enabling RNG early entropy source...
+22:09:41.884 > I (49) boot: Partition Table:
+22:09:41.884 > I (51) boot: ## Label            Usage          Type ST Offset   Length
+22:09:41.884 > I (57) boot:  0 nvs              WiFi data        01 02 00009000 00006000
+22:09:41.884 > I (64) boot:  1 phy_init         RF data          01 01 0000f000 00001000
+22:09:41.884 > I (71) boot:  2 factory          factory app      00 00 00010000 00100000
+22:09:41.884 > I (77) boot: End of partition table
+22:09:41.884 > I (80) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=0e89ch ( 59548) map
+22:09:41.884 > I (108) esp_image: segment 1: paddr=0001e8c4 vaddr=3ff80000 size=00020h (    32) load
+22:09:41.884 > I (108) esp_image: segment 2: paddr=0001e8ec vaddr=3ffb0000 size=0172ch (  5932) load
+22:09:41.884 > I (114) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=262fch (156412) map
+22:09:41.884 > I (173) esp_image: segment 4: paddr=00046324 vaddr=3ffb172c size=00ebch (  3772) load
+22:09:41.884 > I (175) esp_image: segment 5: paddr=000471e8 vaddr=40080000 size=0f4b4h ( 62644) load
+22:09:41.884 > I (209) boot: Loaded app from partition at offset 0x10000
+22:09:41.884 > I (209) boot: Disabling RNG early entropy source...
+22:09:41.884 > I (219) cpu_start: Multicore app
+22:09:41.884 > I (228) cpu_start: Pro cpu start user code
+22:09:41.884 > I (228) cpu_start: cpu freq: 160000000 Hz
+22:09:41.884 > I (228) app_init: Application information:
+22:09:41.884 > I (228) app_init: Project name:     SD_BENCHMARK_V2
+22:09:41.884 > I (232) app_init: App version:      7f60942-dirty
+22:09:41.884 > I (237) app_init: Compile time:     Oct 27 2025 22:08:25
+22:09:41.884 > I (242) app_init: ELF file SHA256:  6a604ddf2...
+22:09:41.884 > I (246) app_init: ESP-IDF:          5.5.0
+22:09:41.884 > I (250) efuse_init: Min chip rev:     v0.0
+22:09:41.884 > I (254) efuse_init: Max chip rev:     v3.99 
+22:09:41.884 > I (258) efuse_init: Chip rev:         v3.1
+22:09:41.884 > I (262) heap_init: Initializing. RAM available for dynamic allocation:
+22:09:41.884 > I (268) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM
+22:09:41.884 > I (273) heap_init: At 3FFB2F60 len 0002D0A0 (180 KiB): DRAM
+22:09:41.884 > I (278) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM
+22:09:41.884 > I (284) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM
+22:09:41.884 > I (289) heap_init: At 4008F4B4 len 00010B4C (66 KiB): IRAM
+22:09:41.884 > I (296) spi_flash: detected chip: generic
+22:09:41.884 > I (298) spi_flash: flash io: dio
+22:09:41.884 > I (302) main_task: Started on CPU0
+22:09:41.884 > I (312) main_task: Calling app_main()
+22:09:41.884 > I (312) SD_BENCH: Initializing SD (SPI mode) @ 26000 kHz...
+22:09:41.884 > I (312) main_task: Returned from app_main()
+22:09:41.884 > I (372) sdspi_transaction: cmd=52, R1 response: command not supported
+22:09:41.988 > I (572) sdspi_transaction: cmd=5, R1 response: command not supported
+22:09:42.891 > Name: SD32G
+22:09:42.891 > Type: SDHC
+22:09:42.891 > Speed: 20.00 MHz (limit: 20.00 MHz)
+22:09:42.894 > Size: 30436MB
+22:09:42.897 > CSD: ver=2, sector_size=512, capacity=62333952 read_bl_len=9
+22:09:42.902 > SSR: bus_width=1
+22:09:42.902 > I (1472) SD_BENCH: card->max_freq_khz=20000 (host asked 26000)
+22:09:42.981 > I (1562) SD_BENCH: VFS stdio buffer: 64 KB (INTERNAL)
+22:09:42.984 > I (1562) SD_BENCH: VFS fread chunk: 32 KB
+22:09:42.990 > I (1562) SD_BENCH: VFS fread: /sdcard/BACKGR~3.WAV in 32 KB chunks...
+22:09:43.026 > Guru Meditation Error: Core  0 panic'ed (LoadStoreError). Exception was unhandled.
+22:09:43.031 > 
+22:09:43.031 > Core  0 register dump:
+22:09:43.034 > PC      : 0x4000c2ba  PS      : 0x00060130  A0      : 0x800d7b39  A1      : 0x3ffb72a0  
+22:09:43.058 > A2      : 0x4008f83e  A3      : 0x3ffe092e  A4      : 0x000001f8  A5      : 0x4008f83e  
+22:09:43.078 > A6      : 0x00000011  A7      : 0x00000000  A8      : 0x80000000  A9      : 0x3ffb7250  
+22:09:43.078 > A10     : 0x00000000  A11     : 0x00000002  A12     : 0x00000001  A13     : 0x3ffb739e  
+22:09:43.094 > A14     : 0x00000040  A15     : 0x3ffb33f4  SAR     : 0x00000010  EXCCAUSE: 0x00000003  
+22:09:43.094 > EXCVADDR: 0x4008f83e  LBEG    : 0x4000c349  LEND    : 0x4000c36b  LCOUNT  : 0xffffffff  
+22:09:43.101 > 
+22:09:43.101 > 
+22:09:43.101 > Backtrace: 0x4000c2b7:0x3ffb72a0 0x400d7b36:0x3ffb72b0 0x400d7f16:0x3ffb7360 0x400d8212:0x3ffb7390 0x400f4a25:0x3ffb73d0 0x400dfba8:0x3ffb73f0 0x400dfc6d:0x3ffb7460 0x400d4ae8:0x3ffb74a0 0x400d20ea:0x3ffb74c0 0x400d36b0:0x3ffb74e0 0x400d5acd:0x3ffb7520 0x400e291a:0x3ffb7550 0x4000bdbb:0x3ffb7570 0x40001125:0x3ffb7590 0x400e36ce:0x3ffb75b0 0x400e3426:0x3ffb75d0 0x400e34a9:0x3ffb7600 0x400d18ce:0x3ffb7620 0x400d1af7:0x3ffb7670 0x40087755:0x3ffb7690
+22:09:43.504 >   #0  0x400d7b36 in start_command_read_blocks at /Users/manueldarveau/.platformio/packages/framework-espidf/components/esp_driver_sdspi/src/sdspi_host.c:802
+22:09:43.504 >   #1  0x400d7f16 in sdspi_host_start_command at /Users/manueldarveau/.platformio/packages/framework-espidf/components/esp_driver_sdspi/src/sdspi_host.c:495
+22:09:43.504 >   #2  0x400d8212 in sdspi_host_do_transaction at /Users/manueldarveau/.platformio/packages/framework-espidf/components/esp_driver_sdspi/src/sdspi_transaction.c:153
+22:09:43.504 >   #3  0x400f4a25 in sdmmc_send_cmd at /Users/manueldarveau/.platformio/packages/framework-espidf/components/sdmmc/sdmmc_cmd.c:24
+22:09:43.504 >   #4  0x400dfba8 in sdmmc_read_sectors_dma at /Users/manueldarveau/.platformio/packages/framework-espidf/components/sdmmc/sdmmc_cmd.c:656
+22:09:43.504 >   #5  0x400dfc6d in sdmmc_read_sectors at /Users/manueldarveau/.platformio/packages/framework-espidf/components/sdmmc/sdmmc_cmd.c:600
+22:09:43.504 >   #6  0x400d4ae8 in ff_sdmmc_read at /Users/manueldarveau/.platformio/packages/framework-espidf/components/fatfs/diskio/diskio_sdmmc.c:54
+22:09:43.504 >   #7  0x400d20ea in ff_disk_read at /Users/manueldarveau/.platformio/packages/framework-espidf/components/fatfs/diskio/diskio.c:96
+22:09:43.504 >   #8  0x400d36b0 in f_read at /Users/manueldarveau/.platformio/packages/framework-espidf/components/fatfs/src/ff.c:4002
+22:09:43.504 >   #9  0x400d5acd in vfs_fat_read at /Users/manueldarveau/.platformio/packages/framework-espidf/components/fatfs/vfs/vfs_fat.c:491
+22:09:43.504 >   #10 0x400e291a in esp_vfs_read at /Users/manueldarveau/.platformio/packages/framework-espidf/components/vfs/vfs.c:1008 (discriminator 3)
+22:09:43.504 >   #11 0x400e36ce in __srefill_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/refill.c:115
+22:09:43.504 >   #12 0x400e3426 in _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:228
+22:09:43.504 >   #13 0x400e34a9 in fread at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:266 (discriminator 1)
+22:09:43.504 >   #14 0x400d18ce in bench_vfs_fread at src/main.c:112
+22:09:43.504 >   #15 0x400d1af7 in bench_task at src/main.c:203
+22:09:43.504 >   #16 0x40087755 in vPortTaskWrapper at /Users/manueldarveau/.platformio/packages/framework-espidf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+22:09:43.504 > 
+22:09:43.504 > 
+22:09:43.504 > 
+22:09:43.504 > 
+22:09:43.504 > 
+22:09:43.504 > ELF file SHA256: 6a604ddf2
+22:09:43.575 > 
+22:09:43.575 > Rebooting...
+22:09:43.575 > ets Jul 29 2019 12:21:46
+22:09:43.575 > 
+22:09:43.575 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+22:09:43.575 > configsip: 0, SPIWP:0xee
+22:09:43.575 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+22:09:43.575 > mode:DIO, clock div:2
+22:09:43.575 > load:0x3fff0030,len:6380
+22:09:43.575 > ho 0 tail 12 room 4
+22:09:43.575 > load:0x40078000,len:15916
+22:09:43.575 > load:0x40080400,len:3860
+22:09:43.575 >   #0  0x40080400 in _invalid_pc_placeholder at /Users/manueldarveau/.platformio/packages/framework-espidf/components/xtensa/xtensa_vectors.S:2235
+22:09:43.575 > 
+22:09:43.575 > entry 0x40080630
+22:09:43.575 > I (29) boot: ESP-IDF 5.5.0 2nd stage bootloader
+22:09:43.575 > I (29) boot: compile time Oct 27 2025 22:08:45
+22:09:43.575 > I (29) boot: Multicore bootloader
+22:09:43.575 > I (30) boot: chip revision: v3.1
+22:09:43.575 > I (33) boot.esp32: SPI Speed      : 40MHz
+22:09:43.575 > I (37) boot.esp32: SPI Mode       : DIO
+22:09:43.575 > I (40) boot.esp32: SPI Flash Size : 4MB
+22:09:43.575 > I (44) boot: Enabling RNG early entropy source...
+22:09:43.575 > I (49) boot: Partition Table:
+22:09:43.575 > I (51) boot: ## Label            Usage          Type ST Offset   Length
+22:09:43.575 > I (57) boot:  0 nvs              WiFi data        01 02 00009000 00006000
+22:09:43.575 > I (64) boot:  1 phy_init         RF data          01 01 0000f000 00001000
+22:09:43.575 > I (71) boot:  2 factory          factory app      00 00 00010000 00100000
+22:09:43.575 > I (77) boot: End of partition table
+22:09:43.575 > I (80) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=0e89ch ( 59548) map
+22:09:43.575 > I (108) esp_image: segment 1: paddr=0001e8c4 vaddr=3ff80000 size=00020h (    32) load
+22:09:43.575 > I (108) esp_image: segment 2: paddr=0001e8ec vaddr=3ffb0000 size=0172ch (  5932) load
+22:09:43.575 > I (114) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=262fch (156412) map
+22:09:43.575 > I (173) esp_image: segment 4: paddr=00046324 vaddr=3ffb172c size=00ebch (  3772) load
+22:09:43.575 > I (175) esp_image: segment 5: paddr=000471e8 vaddr=40080000 size=0f4b4h ( 62644) load
+22:09:43.575 > I (209) boot: Loaded app from partition at offset 0x10000
+22:09:43.575 > I (209) boot: Disabling RNG early entropy source...
+22:09:43.575 > I (219) cpu_start: Multicore app
+22:09:43.575 > I (228) cpu_start: Pro cpu start user code
+22:09:43.575 > I (228) cpu_start: cpu freq: 160000000 Hz
+22:09:43.575 > I (228) app_init: Application information:
+22:09:43.575 > I (228) app_init: Project name:     SD_BENCHMARK_V2
+22:09:43.575 > I (232) app_init: App version:      7f60942-dirty
+22:09:43.575 > I (237) app_init: Compile time:     Oct 27 2025 22:08:25
+22:09:43.575 > I (242) app_init: ELF file SHA256:  6a604ddf2...
+22:09:43.575 > I (246) app_init: ESP-IDF:          5.5.0
+22:09:43.575 > I (250) efuse_init: Min chip rev:     v0.0
+22:09:43.575 > I (254) efuse_init: Max chip rev:     v3.99 
+22:09:43.575 > I (258) efuse_init: Chip rev:         v3.1
+22:09:43.575 > I (262) heap_init: Initializing. RAM available for dynamic allocation:
+22:09:43.575 > I (268) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM
+22:09:43.575 > I (273) heap_init: At 3FFB2F60 len 0002D0A0 (180 KiB): DRAM
+22:09:43.575 > I (278) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM
+22:09:43.575 > I (284) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM
+22:09:43.575 > I (289) heap_init: At 4008F4B4 len 00010B4C (66 KiB): IRAM
+22:09:43.575 > I (296) spi_flash: detected chip: generic
+22:09:43.575 > I (298) spi_flash: flash io: dio
+22:09:43.575 > I (302) main_task: Started on CPU0
+22:09:43.575 > I (312) main_task: Calling app_main()
+22:09:43.575 > I (312) SD_BENCH: Initializing SD (SPI mode) @ 26000 kHz...
+22:09:43.575 > I (312) main_task: Returned from app_main()
+22:09:43.575 > I (372) sdspi_transaction: cmd=52, R1 response: command not supported
+22:09:43.700 > I (572) sdspi_transaction: cmd=5, R1 response: command not supported
+22:09:44.604 > Name: SD32G
+22:09:44.604 > Type: SDHC
+22:09:44.604 > Speed: 20.00 MHz (limit: 20.00 MHz)
+22:09:44.607 > Size: 30436MB
+22:09:44.609 > CSD: ver=2, sector_size=512, capacity=62333952 read_bl_len=9
+22:09:44.615 > SSR: bus_width=1
+22:09:44.615 > I (1472) SD_BENCH: card->max_freq_khz=20000 (host asked 26000)
+22:09:44.694 > I (1562) SD_BENCH: VFS stdio buffer: 64 KB (INTERNAL)
+22:09:44.697 > I (1562) SD_BENCH: VFS fread chunk: 32 KB
+22:09:44.702 > I (1562) SD_BENCH: VFS fread: /sdcard/BACKGR~3.WAV in 32 KB chunks...
+22:09:44.739 > Guru Meditation Error: Core  0 panic'ed (LoadStoreError). Exception was unhandled.
+22:09:44.745 > 
+22:09:44.745 > Core  0 register dump:
+22:09:44.747 > PC      : 0x4000c2a3  PS      : 0x00060130  A0      : 0x800d7b39  A1      : 0x3ffb72a0  
+22:09:44.775 > A2      : 0x4008f83d  A3      : 0x3ffe092d  A4      : 0x000001fa  A5      : 0x4008f83d  
+22:09:44.797 > A6      : 0x00000069  A7      : 0x00000001  A8      : 0xc0000000  A9      : 0x3ffb7250  
+22:09:44.797 > A10     : 0x00000000  A11     : 0x00000003  A12     : 0x00000001  A13     : 0x3ffb739c  
+22:09:44.819 > A14     : 0x00000040  A15     : 0x3ffb33f4  SAR     : 0x00000018  EXCCAUSE: 0x00000003  
+22:09:44.819 > EXCVADDR: 0x4008f83d  LBEG    : 0x4000c349  LEND    : 0x4000c36b  LCOUNT  : 0xffffffff  
+22:09:44.819 > 
+22:09:44.819 > 
+22:09:44.819 > Backtrace: 0x4000c2a0:0x3ffb72a0 0x400d7b36:0x3ffb72b0 0x400d7f16:0x3ffb7360 0x400d8212:0x3ffb7390 0x400f4a25:0x3ffb73d0 0x400dfba8:0x3ffb73f0 0x400dfc6d:0x3ffb7460 0x400d4ae8:0x3ffb74a0 0x400d20ea:0x3ffb74c0 0x400d36b0:0x3ffb74e0 0x400d5acd:0x3ffb7520 0x400e291a:0x3ffb7550 0x4000bdbb:0x3ffb7570 0x40001125:0x3ffb7590 0x400e36ce:0x3ffb75b0 0x400e3426:0x3ffb75d0 0x400e34a9:0x3ffb7600 0x400d18ce:0x3ffb7620 0x400d1af7:0x3ffb7670 0x40087755:0x3ffb7690
+22:09:45.224 >   #0  0x400d7b36 in start_command_read_blocks at /Users/manueldarveau/.platformio/packages/framework-espidf/components/esp_driver_sdspi/src/sdspi_host.c:802
+22:09:45.224 >   #1  0x400d7f16 in sdspi_host_start_command at /Users/manueldarveau/.platformio/packages/framework-espidf/components/esp_driver_sdspi/src/sdspi_host.c:495
+22:09:45.224 >   #2  0x400d8212 in sdspi_host_do_transaction at /Users/manueldarveau/.platformio/packages/framework-espidf/components/esp_driver_sdspi/src/sdspi_transaction.c:153
+22:09:45.224 >   #3  0x400f4a25 in sdmmc_send_cmd at /Users/manueldarveau/.platformio/packages/framework-espidf/components/sdmmc/sdmmc_cmd.c:24
+22:09:45.224 >   #4  0x400dfba8 in sdmmc_read_sectors_dma at /Users/manueldarveau/.platformio/packages/framework-espidf/components/sdmmc/sdmmc_cmd.c:656
+22:09:45.224 >   #5  0x400dfc6d in sdmmc_read_sectors at /Users/manueldarveau/.platformio/packages/framework-espidf/components/sdmmc/sdmmc_cmd.c:600
+22:09:45.224 >   #6  0x400d4ae8 in ff_sdmmc_read at /Users/manueldarveau/.platformio/packages/framework-espidf/components/fatfs/diskio/diskio_sdmmc.c:54
+22:09:45.224 >   #7  0x400d20ea in ff_disk_read at /Users/manueldarveau/.platformio/packages/framework-espidf/components/fatfs/diskio/diskio.c:96
+22:09:45.224 >   #8  0x400d36b0 in f_read at /Users/manueldarveau/.platformio/packages/framework-espidf/components/fatfs/src/ff.c:4002
+22:09:45.224 >   #9  0x400d5acd in vfs_fat_read at /Users/manueldarveau/.platformio/packages/framework-espidf/components/fatfs/vfs/vfs_fat.c:491
+22:09:45.224 >   #10 0x400e291a in esp_vfs_read at /Users/manueldarveau/.platformio/packages/framework-espidf/components/vfs/vfs.c:1008 (discriminator 3)
+22:09:45.224 >   #11 0x400e36ce in __srefill_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/refill.c:115
+22:09:45.224 >   #12 0x400e3426 in _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:228
+22:09:45.224 >   #13 0x400e34a9 in fread at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:266 (discriminator 1)
+22:09:45.224 >   #14 0x400d18ce in bench_vfs_fread at src/main.c:112
+22:09:45.224 >   #15 0x400d1af7 in bench_task at src/main.c:203
+22:09:45.224 >   #16 0x40087755 in vPortTaskWrapper at /Users/manueldarveau/.platformio/packages/framework-espidf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+22:09:45.224 > 
+22:09:45.224 > 
+22:09:45.224 > 
+22:09:45.224 > 
+22:09:45.224 > 
+22:09:45.224 > ELF file SHA256: 6a604ddf2
+22:09:45.296 > 
+22:09:45.296 > Rebooting...
+22:09:45.296 > ets Jul 29 2019 12:21:46
+22:09:45.296 > 
+22:09:45.296 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+22:09:45.296 > configsip: 0, SPIWP:0xee
+22:09:45.296 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+22:09:45.296 > mode:DIO, clock div:2
+22:09:45.296 > load:0x3fff0030,len:6380
+22:09:45.296 > ho 0 tail 12 room 4
+22:09:45.296 > load:0x40078000,len:15916
+22:09:45.296 > load:0x40080400,len:3860
+22:09:45.296 >   #0  0x40080400 in _invalid_pc_placeholder at /Users/manueldarveau/.platformio/packages/framework-espidf/components/xtensa/xtensa_vectors.S:2235
+22:09:45.296 > 
+22:09:45.296 > entry 0x40080630
+22:09:45.296 > I (29) boot: ESP-IDF 5.5.0 2nd stage bootloader
+22:09:45.296 > I (29) boot: compile time Oct 27 2025 22:08:45
+22:09:45.296 > I (29) boot: Multicore bootloader
+22:09:45.296 > I (30) boot: chip revision: v3.1
+22:09:45.296 > I (33) boot.esp32: SPI Speed      : 40MHz
+22:09:45.296 > I (37) boot.esp32: SPI Mode       : DIO
+22:09:45.296 > I (40) boot.esp32: SPI Flash Size : 4MB
+22:09:45.296 > I (44) boot: Enabling RNG early entropy source...
+22:09:45.296 > I (49) boot: Partition Table:
+22:09:45.296 > I (51) boot: ## Label            Usage          Type ST Offset   Length
+22:09:45.296 > I (57) boot:  0 nvs              WiFi data        01 02 00009000 00006000
+22:09:45.296 > I (64) boot:  1 phy_init         RF data          01 01 0000f000 00001000
+22:09:45.296 > I (71) boot:  2 factory          factory app      00 00 00010000 00100000
+22:09:45.296 > I (77) boot: End of partition table
+22:09:45.296 > I (80) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=0e89ch ( 59548) map
+22:09:45.296 > I (108) esp_image: segment 1: paddr=0001e8c4 vaddr=3ff80000 size=00020h (    32) load
+22:09:45.296 > I (108) esp_image: segment 2: paddr=0001e8ec vaddr=3ffb0000 size=0172ch (  5932) load
+22:09:45.296 > I (114) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=262fch (156412) map
+22:09:45.296 > I (173) esp_image: segment 4: paddr=00046324 vaddr=3ffb172c size=00ebch (  3772) load
+22:09:45.296 > I (175) esp_image: segment 5: paddr=000471e8 vaddr=40080000 size=0f4b4h ( 62644) load
+22:09:45.296 > I (209) boot: Loaded app from partition at offset 0x10000
+22:09:45.296 > I (209) boot: Disabling RNG early entropy source...
+22:09:45.296 > I (219) cpu_start: Multicore app
+22:09:45.296 > I (228) cpu_start: Pro cpu start user code
+22:09:45.296 > I (228) cpu_start: cpu freq: 160000000 Hz
+22:09:45.296 > I (228) app_init: Application information:
+22:09:45.296 > I (228) app_init: Project name:     SD_BENCHMARK_V2
+22:09:45.296 > I (232) app_init: App version:      7f60942-dirty
+22:09:45.296 > I (237) app_init: Compile time:     Oct 27 2025 22:08:25
+22:09:45.296 > I (242) app_init: ELF file SHA256:  6a604ddf2...
+22:09:45.296 > I (246) app_init: ESP-IDF:          5.5.0
+22:09:45.296 > I (250) efuse_init: Min chip rev:     v0.0
+22:09:45.296 > I (254) efuse_init: Max chip rev:     v3.99 
+22:09:45.296 > I (258) efuse_init: Chip rev:         v3.1
+22:09:45.296 > I (262) heap_init: Initializing. RAM available for dynamic allocation:
+22:09:45.296 > I (268) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM
+22:09:45.296 > I (273) heap_init: At 3FFB2F60 len 0002D0A0 (180 KiB): DRAM
+22:09:45.296 > I (278) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM
+22:09:45.296 > I (284) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM
+22:09:45.296 > I (289) heap_init: At 4008F4B4 len 00010B4C (66 KiB): IRAM
+22:09:45.296 > I (296) spi_flash: detected chip: generic
+22:09:45.296 > I (298) spi_flash: flash io: dio
+22:09:45.296 > I (302) main_task: Started on CPU0
+22:09:45.296 > I (312) main_task: Calling app_main()
+22:09:45.296 > I (312) SD_BENCH: Initializing SD (SPI mode) @ 26000 kHz...
+22:09:45.296 > I (312) main_task: Returned from app_main()
+22:09:45.296 > I (372) sdspi_transaction: cmd=52, R1 response: command not supported
+22:09:45.412 > I (572) sdspi_transaction: cmd=5, R1 response: command not supported
+22:09:46.316 > Name: SD32G
+22:09:46.316 > Type: SDHC
+22:09:46.316 > Speed: 20.00 MHz (limit: 20.00 MHz)
+22:09:46.319 > Size: 30436MB
+22:09:46.322 > CSD: ver=2, sector_size=512, capacity=62333952 read_bl_len=9
+22:09:46.327 > SSR: bus_width=1
+22:09:46.327 > I (1472) SD_BENCH: card->max_freq_khz=20000 (host asked 26000)
+22:09:46.406 > I (1562) SD_BENCH: VFS stdio buffer: 64 KB (INTERNAL)
+22:09:46.409 > I (1562) SD_BENCH: VFS fread chunk: 32 KB
+22:09:46.414 > I (1562) SD_BENCH: VFS fread: /sdcard/BACKGR~3.WAV in 32 KB chunks...
+22:09:46.451 > Guru Meditation Error: Core  0 panic'ed (LoadStoreError). Exception was unhandled.
+22:09:46.456 > 
+22:09:46.456 > Core  0 register dump:
+22:09:46.459 > PC      : 0x4000c2a3  PS      : 0x00060130  A0      : 0x800d7b39  A1      : 0x3ffb72a0  
+22:09:46.483 > A2      : 0x4008f83d  A3      : 0x3ffe092d  A4      : 0x000001fa  A5      : 0x4008f83d  
+22:09:46.503 > A6      : 0x00000069  A7      : 0x00000001  A8      : 0xc0000000  A9      : 0x3ffb7250  
+22:09:46.503 > A10     : 0x00000000  A11     : 0x00000003  A12     : 0x00000001  A13     : 0x3ffb739c  
+22:09:46.518 > A14     : 0x00000040  A15     : 0x3ffb33f4  SAR     : 0x00000018  EXCCAUSE: 0x00000003  
+22:09:46.518 > EXCVADDR: 0x4008f83d  LBEG    : 0x4000c349  LEND    : 0x4000c36b  LCOUNT  : 0xffffffff  
+22:09:46.525 > 
+22:09:46.525 > 
+22:09:46.525 > Backtrace: 0x4000c2a0:0x3ffb72a0 0x400d7b36:0x3ffb72b0 0x400d7f16:0x3ffb7360 0x400d8212:0x3ffb7390 0x400f4a25:0x3ffb73d0 0x400dfba8:0x3ffb73f0 0x400dfc6d:0x3ffb7460 0x400d4ae8:0x3ffb74a0 0x400d20ea:0x3ffb74c0 0x400d36b0:0x3ffb74e0 0x400d5acd:0x3ffb7520 0x400e291a:0x3ffb7550 0x4000bdbb:0x3ffb7570 0x40001125:0x3ffb7590 0x400e36ce:0x3ffb75b0 0x400e3426:0x3ffb75d0 0x400e34a9:0x3ffb7600 0x400d18ce:0x3ffb7620 0x400d1af7:0x3ffb7670 0x40087755:0x3ffb7690
+22:09:46.929 >   #0  0x400d7b36 in start_command_read_blocks at /Users/manueldarveau/.platformio/packages/framework-espidf/components/esp_driver_sdspi/src/sdspi_host.c:802
+22:09:46.929 >   #1  0x400d7f16 in sdspi_host_start_command at /Users/manueldarveau/.platformio/packages/framework-espidf/components/esp_driver_sdspi/src/sdspi_host.c:495
+22:09:46.929 >   #2  0x400d8212 in sdspi_host_do_transaction at /Users/manueldarveau/.platformio/packages/framework-espidf/components/esp_driver_sdspi/src/sdspi_transaction.c:153
+22:09:46.929 >   #3  0x400f4a25 in sdmmc_send_cmd at /Users/manueldarveau/.platformio/packages/framework-espidf/components/sdmmc/sdmmc_cmd.c:24
+22:09:46.929 >   #4  0x400dfba8 in sdmmc_read_sectors_dma at /Users/manueldarveau/.platformio/packages/framework-espidf/components/sdmmc/sdmmc_cmd.c:656
+22:09:46.929 >   #5  0x400dfc6d in sdmmc_read_sectors at /Users/manueldarveau/.platformio/packages/framework-espidf/components/sdmmc/sdmmc_cmd.c:600
+22:09:46.929 >   #6  0x400d4ae8 in ff_sdmmc_read at /Users/manueldarveau/.platformio/packages/framework-espidf/components/fatfs/diskio/diskio_sdmmc.c:54
+22:09:46.929 >   #7  0x400d20ea in ff_disk_read at /Users/manueldarveau/.platformio/packages/framework-espidf/components/fatfs/diskio/diskio.c:96
+22:09:46.929 >   #8  0x400d36b0 in f_read at /Users/manueldarveau/.platformio/packages/framework-espidf/components/fatfs/src/ff.c:4002
+22:09:46.929 >   #9  0x400d5acd in vfs_fat_read at /Users/manueldarveau/.platformio/packages/framework-espidf/components/fatfs/vfs/vfs_fat.c:491
+22:09:46.929 >   #10 0x400e291a in esp_vfs_read at /Users/manueldarveau/.platformio/packages/framework-espidf/components/vfs/vfs.c:1008 (discriminator 3)
+22:09:46.929 >   #11 0x400e36ce in __srefill_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/refill.c:115
+22:09:46.929 >   #12 0x400e3426 in _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:228
+22:09:46.929 >   #13 0x400e34a9 in fread at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:266 (discriminator 1)
+22:09:46.929 >   #14 0x400d18ce in bench_vfs_fread at src/main.c:112
+22:09:46.929 >   #15 0x400d1af7 in bench_task at src/main.c:203
+22:09:46.929 >   #16 0x40087755 in vPortTaskWrapper at /Users/manueldarveau/.platformio/packages/framework-espidf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+22:09:46.929 > 
+22:09:46.929 > 
+22:09:46.929 > 
+22:09:46.929 > 
+22:09:46.929 > 
+22:09:46.929 > ELF file SHA256: 6a604ddf2
+22:09:47.000 > 
+22:09:47.000 > Rebooting...
+22:09:47.000 > ets Jul 29 2019 12:21:46
+22:09:47.000 > 
+22:09:47.000 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+22:09:47.000 > configsip: 0, SPIWP:0xee
+22:09:47.000 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+22:09:47.000 > mode:DIO, clock div:2
+22:09:47.000 > load:0x3fff0030,len:6380
+22:09:47.000 > ho 0 tail 12 room 4
+22:09:47.000 > load:0x40078000,len:15916
+22:09:47.000 > load:0x40080400,len:3860
+22:09:47.000 >   #0  0x40080400 in _invalid_pc_placeholder at /Users/manueldarveau/.platformio/packages/framework-espidf/components/xtensa/xtensa_vectors.S:2235
+22:09:47.000 > 
+22:09:47.000 > entry 0x40080630
+22:09:47.000 > I (29) boot: ESP-IDF 5.5.0 2nd stage bootloader
+22:09:47.000 > I (29) boot: compile time Oct 27 2025 22:08:45
+22:09:47.000 > I (29) boot: Multicore bootloader
+22:09:47.000 > I (30) boot: chip revision: v3.1
+22:09:47.000 > I (33) boot.esp32: SPI Speed      : 40MHz
+22:09:47.000 > I (37) boot.esp32: SPI Mode       : DIO
+22:09:47.000 > I (40) boot.esp32: SPI Flash Size : 4MB
+22:09:47.000 > I (44) boot: Enabling RNG early entropy source...
+22:09:47.000 > I (49) boot: Partition Table:
+22:09:47.000 > I (51) boot: ## Label            Usage          Type ST Offset   Length
+22:09:47.000 > I (57) boot:  0 nvs              WiFi data        01 02 00009000 00006000
+22:09:47.000 > I (64) boot:  1 phy_init         RF data          01 01 0000f000 00001000
+22:09:47.000 > I (71) boot:  2 factory          factory app      00 00 00010000 00100000
+22:09:47.001 > I (77) boot: End of partition table
+22:09:47.001 > I (80) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=0e89ch ( 59548) map
+22:09:47.001 > I (108) esp_image: segment 1: paddr=0001e8c4 vaddr=3ff80000 size=00020h (    32) load
+22:09:47.001 > I (108) esp_image: segment 2: paddr=0001e8ec vaddr=3ffb0000 size=0172ch (  5932) load
+22:09:47.001 > I (114) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=262fch (156412) map
+22:09:47.001 > I (173) esp_image: segment 4: paddr=00046324 vaddr=3ffb172c size=00ebch (  3772) load
+22:09:47.001 > I (175) esp_image: segment 5: paddr=000471e8 vaddr=40080000 size=0f4b4h ( 62644) load
+22:09:47.001 > I (209) boot: Loaded app from partition at offset 0x10000
+22:09:47.001 > I (209) boot: Disabling RNG early entropy source...
+22:09:47.001 > I (219) cpu_start: Multicore app
+22:09:47.001 > I (228) cpu_start: Pro cpu start user code
+22:09:47.001 > I (228) cpu_start: cpu freq: 160000000 Hz
+22:09:47.001 > I (228) app_init: Application information:
+22:09:47.001 > I (228) app_init: Project name:     SD_BENCHMARK_V2
+22:09:47.001 > I (232) app_init: App version:      7f60942-dirty
+22:09:47.001 > I (237) app_init: Compile time:     Oct 27 2025 22:08:25
+22:09:47.001 > I (242) app_init: ELF file SHA256:  6a604ddf2...
+22:09:47.001 > I (246) app_init: ESP-IDF:          5.5.0
+22:09:47.001 > I (250) efuse_init: Min chip rev:     v0.0
+22:09:47.001 > I (254) efuse_init: Max chip rev:     v3.99 
+22:09:47.001 > I (258) efuse_init: Chip rev:         v3.1
+22:09:47.001 > I (262) heap_init: Initializing. RAM available for dynamic allocation:
+22:09:47.001 > I (268) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM
+22:09:47.001 > I (273) heap_init: At 3FFB2F60 len 0002D0A0 (180 KiB): DRAM
+22:09:47.001 > I (278) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM
+22:09:47.001 > I (284) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM
+22:09:47.001 > I (289) heap_init: At 4008F4B4 len 00010B4C (66 KiB): IRAM
+22:09:47.001 > I (296) spi_flash: detected chip: generic
+22:09:47.001 > I (298) spi_flash: flash io: dio
+22:09:47.001 > I (302) main_task: Started on CPU0
+22:09:47.001 > I (312) main_task: Calling app_main()
+22:09:47.001 > I (312) SD_BENCH: Initializing SD (SPI mode) @ 26000 kHz...
+22:09:47.001 > I (312) main_task: Returned from app_main()
+22:09:47.001 > I (372) sdspi_transaction: cmd=52, R1 response: command not supported
+22:09:47.125 > I (572) sdspi_transaction: cmd=5, R1 response: command not supported
+22:09:48.029 > Name: SD32G
+22:09:48.029 > Type: SDHC
+22:09:48.029 > Speed: 20.00 MHz (limit: 20.00 MHz)
+22:09:48.032 > Size: 30436MB
+22:09:48.034 > CSD: ver=2, sector_size=512, capacity=62333952 read_bl_len=9
+22:09:48.040 > SSR: bus_width=1
+22:09:48.040 > I (1472) SD_BENCH: card->max_freq_khz=20000 (host asked 26000)
+22:09:48.119 > I (1562) SD_BENCH: VFS stdio buffer: 64 KB (INTERNAL)
+22:09:48.122 > I (1562) SD_BENCH: VFS fread chunk: 32 KB
+22:09:48.127 > I (1562) SD_BENCH: VFS fread: /sdcard/BACKGR~3.WAV in 32 KB chunks...
+22:09:48.164 > Guru Meditation Error: Core  0 panic'ed (LoadStoreError). Exception was unhandled.
+22:09:48.169 > 
+22:09:48.169 > Core  0 register dump:
+22:09:48.172 > PC      : 0x4000c2a3  PS      : 0x00060130  A0      : 0x800d7b39  A1      : 0x3ffb72a0  
+22:09:48.191 > A2      : 0x4008f83d  A3      : 0x3ffe092d  A4      : 0x000001fa  A5      : 0x4008f83d  
+22:09:48.200 > A6      : 0x00000069  A7      : 0x00000001  A8      : 0xc0000000  A9      : 0x3ffb7250  
+22:09:48.208 > A10     : 0x00000000  A11     : 0x00000003  A12     : 0x00000001  A13     : 0x3ffb739c  
+22:09:48.216 > A14     : 0x00000040  A15     : 0x3ffb33f4  SAR     : 0x00000018  EXCCAUSE: 0x00000003  
+22:09:48.223 > EXCVADDR: 0x4008f83d  LBEG    : 0x4000c349  LEND    : 0x4000c36b  LCOUNT  : 0xffffffff  
+22:09:48.230 > 
+22:09:48.230 > 
+22:09:48.230 > Backtrace: 0x4000c2a0:0x3ffb72a0 0x400d7b36:0x3ffb72b0 0x400d7f16:0x3ffb7360 0x400d8212:0x3ffb7390 0x400f4a25:0x3ffb73d0 0x400dfba8:0x3ffb73f0 0x400dfc6d:0x3ffb7460 0x400d4ae8:0x3ffb74a0 0x400d20ea:0x3ffb74c0 0x400d36b0:0x3ffb74e0 0x400d5acd:0x3ffb7520 0x400e291a:0x3ffb7550 0x4000bdbb:0x3ffb7570 0x40001125:0x3ffb7590 0x400e36ce:0x3ffb75b0 0x400e3426:0x3ffb75d0 0x400e34a9:0x3ffb7600 0x400d18ce:0x3ffb7620 0x400d1af7:0x3ffb7670 0x40087755:0x3ffb7690
+22:09:48.642 >   #0  0x400d7b36 in start_command_read_blocks at /Users/manueldarveau/.platformio/packages/framework-espidf/components/esp_driver_sdspi/src/sdspi_host.c:802
+22:09:48.642 >   #1  0x400d7f16 in sdspi_host_start_command at /Users/manueldarveau/.platformio/packages/framework-espidf/components/esp_driver_sdspi/src/sdspi_host.c:495
+22:09:48.642 >   #2  0x400d8212 in sdspi_host_do_transaction at /Users/manueldarveau/.platformio/packages/framework-espidf/components/esp_driver_sdspi/src/sdspi_transaction.c:153
+22:09:48.642 >   #3  0x400f4a25 in sdmmc_send_cmd at /Users/manueldarveau/.platformio/packages/framework-espidf/components/sdmmc/sdmmc_cmd.c:24
+22:09:48.642 >   #4  0x400dfba8 in sdmmc_read_sectors_dma at /Users/manueldarveau/.platformio/packages/framework-espidf/components/sdmmc/sdmmc_cmd.c:656
+22:09:48.642 >   #5  0x400dfc6d in sdmmc_read_sectors at /Users/manueldarveau/.platformio/packages/framework-espidf/components/sdmmc/sdmmc_cmd.c:600
+22:09:48.642 >   #6  0x400d4ae8 in ff_sdmmc_read at /Users/manueldarveau/.platformio/packages/framework-espidf/components/fatfs/diskio/diskio_sdmmc.c:54
+22:09:48.642 >   #7  0x400d20ea in ff_disk_read at /Users/manueldarveau/.platformio/packages/framework-espidf/components/fatfs/diskio/diskio.c:96
+22:09:48.642 >   #8  0x400d36b0 in f_read at /Users/manueldarveau/.platformio/packages/framework-espidf/components/fatfs/src/ff.c:4002
+22:09:48.642 >   #9  0x400d5acd in vfs_fat_read at /Users/manueldarveau/.platformio/packages/framework-espidf/components/fatfs/vfs/vfs_fat.c:491
+22:09:48.642 >   #10 0x400e291a in esp_vfs_read at /Users/manueldarveau/.platformio/packages/framework-espidf/components/vfs/vfs.c:1008 (discriminator 3)
+22:09:48.642 >   #11 0x400e36ce in __srefill_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/refill.c:115
+22:09:48.642 >   #12 0x400e3426 in _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:228
+22:09:48.642 >   #13 0x400e34a9 in fread at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:266 (discriminator 1)
+22:09:48.642 >   #14 0x400d18ce in bench_vfs_fread at src/main.c:112
+22:09:48.642 >   #15 0x400d1af7 in bench_task at src/main.c:203
+22:09:48.642 >   #16 0x40087755 in vPortTaskWrapper at /Users/manueldarveau/.platformio/packages/framework-espidf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+22:09:48.642 > 
+22:09:48.642 > 
+22:09:48.642 > 
+22:09:48.642 > 
+22:09:48.642 > 
+22:09:48.642 > ELF file SHA256: 6a604ddf2
+22:09:48.713 > 
+22:09:48.713 > Rebooting...
+22:09:48.713 > ets Jul 29 2019 12:21:46
+22:09:48.713 > 
+22:09:48.713 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+22:09:48.713 > configsip: 0, SPIWP:0xee
+22:09:48.713 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+22:09:48.713 > mode:DIO, clock div:2
+22:09:48.713 > load:0x3fff0030,len:6380
+22:09:48.713 > ho 0 tail 12 room 4
+22:09:48.713 > load:0x40078000,len:15916
+22:09:48.713 > load:0x40080400,len:3860
+22:09:48.713 >   #0  0x40080400 in _invalid_pc_placeholder at /Users/manueldarveau/.platformio/packages/framework-espidf/components/xtensa/xtensa_vectors.S:2235
+22:09:48.713 > 
+22:09:48.713 > entry 0x40080630
+22:09:48.713 > I (29) boot: ESP-IDF 5.5.0 2nd stage bootloader
+22:09:48.713 > I (29) boot: compile time Oct 27 2025 22:08:45
+22:09:48.713 > I (29) boot: Multicore bootloader
+22:09:48.713 > I (30) boot: chip revision: v3.1
+22:09:48.713 > I (33) boot.esp32: SPI Speed      : 40MHz
+22:09:48.713 > I (37) boot.esp32: SPI Mode       : DIO
+22:09:48.713 > I (40) boot.esp32: SPI Flash Size : 4MB
+22:09:48.713 > I (44) boot: Enabling RNG early entropy source...
+22:09:48.713 > I (49) boot: Partition Table:
+22:09:48.713 > I (51) boot: ## Label            Usage          Type ST Offset   Length
+22:09:48.713 > I (57) boot:  0 nvs              WiFi data        01 02 00009000 00006000
+22:09:48.713 > I (64) boot:  1 phy_init         RF data          01 01 0000f000 00001000
+22:09:48.713 > I (71) boot:  2 factory          factory app      00 00 00010000 00100000
+22:09:48.713 > I (77) boot: End of partition table
+22:09:48.713 > I (80) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=0e89ch ( 59548) map
+22:09:48.713 > I (108) esp_image: segment 1: paddr=0001e8c4 vaddr=3ff80000 size=00020h (    32) load
+22:09:48.713 > I (108) esp_image: segment 2: paddr=0001e8ec vaddr=3ffb0000 size=0172ch (  5932) load
+22:09:48.713 > I (114) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=262fch (156412) map
+22:09:48.713 > I (173) esp_image: segment 4: paddr=00046324 vaddr=3ffb172c size=00ebch (  3772) load
+22:09:48.713 > I (175) esp_image: segment 5: paddr=000471e8 vaddr=40080000 size=0f4b4h ( 62644) load
+22:09:48.713 > I (209) boot: Loaded app from partition at offset 0x10000
+22:09:48.713 > I (209) boot: Disabling RNG early entropy source...
+22:09:48.713 > I (219) cpu_start: Multicore app
+22:09:48.713 > I (228) cpu_start: Pro cpu start user code
+22:09:48.713 > I (228) cpu_start: cpu freq: 160000000 Hz
+22:09:48.713 > I (228) app_init: Application information:
+22:09:48.713 > I (228) app_init: Project name:     SD_BENCHMARK_V2
+22:09:48.713 > I (232) app_init: App version:      7f60942-dirty
+22:09:48.713 > I (237) app_init: Compile time:     Oct 27 2025 22:08:25
+22:09:48.713 > I (242) app_init: ELF file SHA256:  6a604ddf2...
+22:09:48.713 > I (246) app_init: ESP-IDF:          5.5.0
+22:09:48.713 > I (250) efuse_init: Min chip rev:     v0.0
+22:09:48.713 > I (254) efuse_init: Max chip rev:     v3.99 
+22:09:48.713 > I (258) efuse_init: Chip rev:         v3.1
+22:09:48.713 > I (262) heap_init: Initializing. RAM available for dynamic allocation:
+22:09:48.713 > I (268) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM
+22:09:48.713 > I (273) heap_init: At 3FFB2F60 len 0002D0A0 (180 KiB): DRAM
+22:09:48.713 > I (278) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM
+22:09:48.713 > I (284) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM
+22:09:48.713 > I (289) heap_init: At 4008F4B4 len 00010B4C (66 KiB): IRAM
+22:09:48.713 > I (296) spi_flash: detected chip: generic
+22:09:48.713 > I (298) spi_flash: flash io: dio
+22:09:48.713 > I (302) main_task: Started on CPU0
+22:09:48.713 > I (312) main_task: Calling app_main()
+22:09:48.713 > I (312) SD_BENCH: Initializing SD (SPI mode) @ 26000 kHz...
+22:09:48.713 > I (312) main_task: Returned from app_main()
+22:09:48.713 > I (372) sdspi_transaction: cmd=52, R1 response: command not supported
+22:09:48.838 > I (572) sdspi_transaction: cmd=5, R1 response: command not supported
