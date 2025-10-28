@@ -1,0 +1,9 @@
+SD initialization done.
+Listing files in the root directory:
+FILE: /.Spotlight-V100
+FILE: /droplets-8k_16bit.wav
+FILE: /._droplets-8k_16bit.wav
+Listing done.
+Reading from file: /droplets-8k_16bit.wav
+Reached end of file before reading full chunk.
+Read 120620 bytes in 75792 microseconds: 1554.16 mB/sec.
