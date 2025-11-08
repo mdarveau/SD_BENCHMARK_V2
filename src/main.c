@@ -64,8 +64,8 @@ static void list_files(const char *dirpath) {
   closedir(dir);
 }
 
-#define VFS_STDIO_BUF_PREFERRED_KB 64  // Preferred stdio buffer size
-#define VFS_DMA_BUF_PREFERRED_KB 32    // Preferred DMA buffer size
+#define VFS_STDIO_BUF_PREFERRED_KB 32  // Preferred stdio buffer size
+#define VFS_DMA_BUF_PREFERRED_KB 8     // Preferred DMA buffer size
 
 static void bench_vfs_fread(const char *path) {
   FILE *fp = fopen(path, "rb");
@@ -74,25 +74,23 @@ static void bench_vfs_fread(const char *path) {
     return;
   }
 
-  // Try to allocate an INTERNAL stdio buffer: 128K -> 64K -> 32K -> 16K
   uint8_t *stdio_buf = NULL;
-  int chosen_kb = 0;
   ESP_LOGI(TAG, "VFS stdio buffer: %d KB (INTERNAL)",
            VFS_STDIO_BUF_PREFERRED_KB);
   size_t bytes = VFS_STDIO_BUF_PREFERRED_KB * 1024;
-  stdio_buf = (uint8_t *)heap_caps_malloc(bytes, MALLOC_CAP_INTERNAL);
+  stdio_buf = (uint8_t *)heap_caps_aligned_alloc(
+      32, bytes, MALLOC_CAP_INTERNAL | MALLOC_CAP_DMA);
   if (stdio_buf) {
     setvbuf(fp, (char *)stdio_buf, _IOFBF, bytes);
   } else {
     ESP_LOGE(TAG, "No INTERNAL stdio buffer;");
+    fclose(fp);
     return;
   }
 
-  // Choose a read chunk size with fallbacks (32K -> 16K)
   size_t chunk_bytes = VFS_DMA_BUF_PREFERRED_KB * 1024;
   uint8_t *buf = NULL;
-  // Must be DMA-capable and 4-byte aligned for SDSPI
-  buf = (uint8_t *)heap_caps_aligned_alloc(4, chunk_bytes, MALLOC_CAP_DMA);
+  buf = (uint8_t *)heap_caps_aligned_alloc(32, chunk_bytes, MALLOC_CAP_DMA);
   if (!buf) {
     ESP_LOGE(TAG, "No DMA read buffer");
     if (stdio_buf) heap_caps_free(stdio_buf);
@@ -100,9 +98,6 @@ static void bench_vfs_fread(const char *path) {
     return;
   }
   ESP_LOGI(TAG, "VFS fread chunk: %u KB", (unsigned)(chunk_bytes / 1024));
-
-  ESP_LOGI(TAG, "VFS fread: %s in %u KB chunks...", path,
-           (unsigned)(chunk_bytes / 1024));
 
   int64_t t0 = esp_timer_get_time();
   size_t total = 0;
@@ -125,10 +120,6 @@ static void bench_vfs_fread(const char *path) {
 #define SAFE_DMA_BUF_PREFERRED_KB 32  // Preferred DMA buffer size
 
 static void bench_safe_fread(const char *path) {
-  // Check available memory before allocation
-  size_t free_internal = heap_caps_get_free_size(MALLOC_CAP_INTERNAL);
-  ESP_LOGI(TAG, "Available internal memory: %zu bytes", free_internal);
-
   FILE *fp = fopen(path, "rb");
   if (!fp) {
     ESP_LOGE(TAG, "fopen(%s) failed", path);
@@ -152,17 +143,6 @@ static void bench_safe_fread(const char *path) {
     return;
   }
 
-  // Validate buffer alignment
-  ESP_LOGI(TAG, "DMA buffer allocated at 0x%p, size %zu bytes", buf,
-           chunk_bytes);
-  ESP_LOGI(TAG, "Buffer alignment check: %s",
-           ((uintptr_t)buf % 32 == 0) ? "OK" : "FAIL");
-
-  ESP_LOGI(TAG, "Safe fread: %s in %u KB chunks...", path,
-           (unsigned)(chunk_bytes / 1024));
-
-  ESP_LOGI(TAG, "Starting safe read loop with %zu byte chunks", chunk_bytes);
-
   int64_t t0 = esp_timer_get_time();
   size_t total = 0;
   int read_count = 0;
@@ -174,9 +154,8 @@ static void bench_safe_fread(const char *path) {
 
     // Check for EOF or short read (end of file)
     if (br < chunk_bytes) {
-      ESP_LOGI(TAG, "EOF reached: got %zu bytes (expected %zu), file complete",
-               br, chunk_bytes);
-      break;  // EOF or short read - file is complete
+      // EOF or short read - file is complete
+      break;
     }
 
     // Additional safety check based on file size
@@ -193,21 +172,10 @@ static void bench_safe_fread(const char *path) {
            (total / 1024.0) / (dt / 1000000.0),
            ((total / 1024.0) / (dt / 1000000.0)) / 1024.0);
 
-  // Verify we read the complete file
-  if (file_size > 0 && total == file_size) {
-    ESP_LOGI(TAG, "✓ Complete file read successfully");
-  } else if (file_size > 0) {
-    ESP_LOGW(TAG, "⚠ Partial read: %zu/%ld bytes (%.1f%%)", total, file_size,
-             (total * 100.0) / file_size);
-  }
-
   heap_caps_free(buf);
   fclose(fp);
 }
 
-// dump_card_state removed for simplicity
-
-/* ---- SD init/mount (SPI @ 20 MHz, stronger drive) ---- */
 static esp_err_t init_and_mount_sdcard_at(int max_freq_khz) {
   ESP_LOGI(TAG, "Initializing SD (SPI mode) @ %d kHz...", max_freq_khz);
   sdmmc_host_t host = SDSPI_HOST_DEFAULT();
@@ -279,58 +247,32 @@ static void unmount_and_free_bus(void) {
   spi_bus_free(s_host_slot);
 }
 
-/* ---- Run it in a modest stack to free INTERNAL RAM ---- */
-static void bench_task(void *arg) {
-  // First mount: bench immediately
+#define READ_ON_FIRST_MOUNT 0
+
+void app_main(void) {
+  ESP_LOGI(TAG, "Starting SD benchmark!");
+
+  // First mount: for some reason, the performance is quite bad on the first
+  // mount
+  ESP_LOGI(TAG, "First mount...");
   if (init_and_mount_sdcard_at(26000) != ESP_OK) {
-    vTaskDelete(NULL);
     return;
+  }
+  if (READ_ON_FIRST_MOUNT) {
+    bench_vfs_fread(TEST_FILE_VFS_LARGE);
+    bench_safe_fread(TEST_FILE_VFS_LARGE);
   }
   unmount_and_free_bus();
 
+  // vTaskDelay(pdMS_TO_TICKS(50));
+
   // Second mount: ensure fast path
-  vTaskDelay(pdMS_TO_TICKS(50));
+  ESP_LOGI(TAG, "Second mount...");
   if (init_and_mount_sdcard_at(26000) != ESP_OK) {
-    vTaskDelete(NULL);
     return;
   }
   bench_vfs_fread(TEST_FILE_VFS_LARGE);
   bench_safe_fread(TEST_FILE_VFS_LARGE);
   unmount_and_free_bus();
   ESP_LOGI(TAG, "Bench complete.");
-  vTaskDelete(NULL);
-}
-
-void print_memory_info(void) {
-  ESP_LOGI(TAG, "8-bit total/free/largest: %u / %u / %u",
-           (unsigned)heap_caps_get_total_size(MALLOC_CAP_8BIT),
-           (unsigned)heap_caps_get_free_size(MALLOC_CAP_8BIT),
-           (unsigned)heap_caps_get_largest_free_block(MALLOC_CAP_8BIT));
-
-  ESP_LOGI(TAG, "DMA total/free/largest:   %u / %u / %u",
-           (unsigned)heap_caps_get_total_size(MALLOC_CAP_DMA),
-           (unsigned)heap_caps_get_free_size(MALLOC_CAP_DMA),
-           (unsigned)heap_caps_get_largest_free_block(MALLOC_CAP_DMA));
-
-  ESP_LOGI(TAG, "INTERNAL total/free:      %u / %u",
-           (unsigned)heap_caps_get_total_size(MALLOC_CAP_INTERNAL),
-           (unsigned)heap_caps_get_free_size(MALLOC_CAP_INTERNAL));
-
-#ifdef CONFIG_SPIRAM
-  ESP_LOGI(TAG, "SPIRAM total/free/largest:%u / %u / %u",
-           (unsigned)heap_caps_get_total_size(MALLOC_CAP_SPIRAM),
-           (unsigned)heap_caps_get_free_size(MALLOC_CAP_SPIRAM),
-           (unsigned)heap_caps_get_largest_free_block(MALLOC_CAP_SPIRAM));
-#endif
-}
-
-void app_main(void) {
-  ESP_LOGI(TAG, "Starting SD benchmark...");
-  print_memory_info();
-
-  //   Smaller stack (10 KB) so large INTERNAL buffers are more likely to
-  //   succeed
-  const uint32_t stack_words = (10 * 1024) / sizeof(StackType_t);
-  xTaskCreatePinnedToCore(bench_task, "bench_task", stack_words, NULL,
-                          tskIDLE_PRIORITY + 1, NULL, tskNO_AFFINITY);
 }
