@@ -1,5 +1,6 @@
 {
   "files.associations": {
-    "esp_vfs_fat.h": "c"
+    "esp_vfs_fat.h": "c",
+    "*.bak2": "cpp"
   }
 }

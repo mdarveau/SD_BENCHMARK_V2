@@ -29,6 +29,14 @@ static const char *TAG = "SD_BENCH";
 #define TEST_FILE_VFS_SMALL MOUNT_POINT "/DROPLE~5.WAV"
 #define TEST_FILE_VFS_LARGE MOUNT_POINT "/BACKGR~3.WAV"
 
+#define RAW_XFER_SECTORS 256  // 128 KB per transfer
+#define RAW_TOTAL_MB 8
+#define RAW_START_LBA 4096
+
+/* === Buffer size configuration === */
+#define STDIO_BUF_PREFERRED_KB 128  // Preferred stdio buffer size
+#define DMA_BUF_PREFERRED_KB 32     // Preferred DMA buffer size
+
 #ifndef CHECK
 #define CHECK(call, msg)                                  \
   do {                                                    \
@@ -64,65 +72,92 @@ static void list_files(const char *dirpath) {
   closedir(dir);
 }
 
-#define VFS_STDIO_BUF_PREFERRED_KB 64  // Preferred stdio buffer size
-#define VFS_DMA_BUF_PREFERRED_KB 32    // Preferred DMA buffer size
-
 static void bench_vfs_fread(const char *path) {
+  // Check available memory before allocation
+  size_t free_internal = heap_caps_get_free_size(MALLOC_CAP_INTERNAL);
+  ESP_LOGI(TAG, "Available internal memory: %zu bytes", free_internal);
+
   FILE *fp = fopen(path, "rb");
   if (!fp) {
     ESP_LOGE(TAG, "fopen(%s) failed", path);
     return;
   }
 
-  // Try to allocate an INTERNAL stdio buffer: 128K -> 64K -> 32K -> 16K
-  uint8_t *stdio_buf = NULL;
-  int chosen_kb = 0;
-  ESP_LOGI(TAG, "VFS stdio buffer: %d KB (INTERNAL)",
-           VFS_STDIO_BUF_PREFERRED_KB);
-  size_t bytes = VFS_STDIO_BUF_PREFERRED_KB * 1024;
-  stdio_buf = (uint8_t *)heap_caps_malloc(bytes, MALLOC_CAP_INTERNAL);
+  size_t stdio_buf_size = STDIO_BUF_PREFERRED_KB * 1024;
+  uint8_t *stdio_buf = (uint8_t *)heap_caps_aligned_alloc(64, stdio_buf_size,
+                                                          MALLOC_CAP_INTERNAL);
+
   if (stdio_buf) {
-    setvbuf(fp, (char *)stdio_buf, _IOFBF, bytes);
+    setvbuf(fp, (char *)stdio_buf, _IOFBF, stdio_buf_size);
+    ESP_LOGI(TAG, "Using %zu KB stdio buffer", stdio_buf_size / 1024);
   } else {
-    ESP_LOGE(TAG, "No INTERNAL stdio buffer;");
-    return;
+    // Use unbuffered I/O to avoid potential buffer issues
+    setvbuf(fp, NULL, _IONBF, 0);
+    ESP_LOGW(TAG, "Using unbuffered I/O (no stdio buffer)");
   }
 
-  // Choose a read chunk size with fallbacks (32K -> 16K)
-  size_t chunk_bytes = VFS_DMA_BUF_PREFERRED_KB * 1024;
-  uint8_t *buf = NULL;
-  // Must be DMA-capable and 4-byte aligned for SDSPI
-  buf = (uint8_t *)heap_caps_aligned_alloc(4, chunk_bytes, MALLOC_CAP_DMA);
+  // DMA chunk: Use 32-byte alignment for better SD card compatibility
+  size_t chunk_bytes = DMA_BUF_PREFERRED_KB * 1024;
+  uint8_t *buf =
+      (uint8_t *)heap_caps_aligned_alloc(32, chunk_bytes, MALLOC_CAP_DMA);
+
   if (!buf) {
-    ESP_LOGE(TAG, "No DMA read buffer");
-    if (stdio_buf) heap_caps_free(stdio_buf);
+    ESP_LOGE(TAG, "No DMA read buffer available");
     fclose(fp);
+    if (stdio_buf) heap_caps_free(stdio_buf);
     return;
   }
-  ESP_LOGI(TAG, "VFS fread chunk: %u KB", (unsigned)(chunk_bytes / 1024));
 
-  ESP_LOGI(TAG, "VFS fread: %s in %u KB chunks...", path,
+  // Validate buffer alignment
+  ESP_LOGI(TAG, "DMA buffer allocated at 0x%p, size %zu bytes", buf,
+           chunk_bytes);
+  ESP_LOGI(TAG, "Buffer alignment check: %s",
+           ((uintptr_t)buf % 32 == 0) ? "OK" : "FAIL");
+
+  ESP_LOGI(TAG, "fread: %s in %u KB chunks...", path,
            (unsigned)(chunk_bytes / 1024));
+  ESP_LOGI(TAG, "Total buffer memory: %zu KB (stdio: %zu KB, DMA: %zu KB)",
+           (stdio_buf_size + chunk_bytes) / 1024, stdio_buf_size / 1024,
+           chunk_bytes / 1024);
 
   int64_t t0 = esp_timer_get_time();
   size_t total = 0;
+  int read_count = 0;
+
+  ESP_LOGI(TAG, "Starting read loop with %zu byte chunks", chunk_bytes);
+
   for (;;) {
     size_t br = fread(buf, 1, chunk_bytes, fp);
     total += br;
-    if (br < chunk_bytes) break;
+    read_count++;
+
+    if (read_count % 20 == 0) {
+      ESP_LOGI(TAG, "Read %d chunks, %zu bytes total", read_count, total);
+    }
+
+    if (br < chunk_bytes) {
+      ESP_LOGI(TAG, "EOF or short read: got %zu bytes (expected %zu)", br,
+               chunk_bytes);
+      break;  // EOF or short read
+    }
+
+    // Safety check to prevent infinite loops
+    if (read_count > 10000) {
+      ESP_LOGW(TAG, "Too many reads, breaking loop");
+      break;
+    }
   }
   int64_t dt = esp_timer_get_time() - t0;
 
-  ESP_LOGI(TAG, "VFS fread %s %u bytes in %lld us: %.1f KB/s (%.2f MB/s)", path,
-           (unsigned)total, (long long)dt, kbps(total, dt),
-           kbps(total, dt) / 1024.0);
+  ESP_LOGI(TAG, "bench_vfs_fread %s %u bytes in %lld us: %.1f KB/s (%.2f MB/s)",
+           path, (unsigned)total, (long long)dt,
+           (total / 1024.0) / (dt / 1000000.0),
+           ((total / 1024.0) / (dt / 1000000.0)) / 1024.0);
 
   heap_caps_free(buf);
-  fclose(fp);
+  fclose(fp);  // Close first, stream may still touch its buffer
   if (stdio_buf) heap_caps_free(stdio_buf);
 }
-
-#define SAFE_DMA_BUF_PREFERRED_KB 32  // Preferred DMA buffer size
 
 static void bench_safe_fread(const char *path) {
   // Check available memory before allocation
@@ -142,7 +177,7 @@ static void bench_safe_fread(const char *path) {
   ESP_LOGI(TAG, "File size: %ld bytes (%.1f KB)", file_size,
            file_size / 1024.0);
 
-  size_t chunk_bytes = SAFE_DMA_BUF_PREFERRED_KB * 1024;
+  size_t chunk_bytes = DMA_BUF_PREFERRED_KB * 1024;
   uint8_t *buf =
       (uint8_t *)heap_caps_aligned_alloc(32, chunk_bytes, MALLOC_CAP_DMA);
 
@@ -161,22 +196,35 @@ static void bench_safe_fread(const char *path) {
   ESP_LOGI(TAG, "Safe fread: %s in %u KB chunks...", path,
            (unsigned)(chunk_bytes / 1024));
 
-  ESP_LOGI(TAG, "Starting safe read loop with %zu byte chunks", chunk_bytes);
-
   int64_t t0 = esp_timer_get_time();
   size_t total = 0;
   int read_count = 0;
+
+  ESP_LOGI(TAG, "Starting safe read loop with %zu byte chunks", chunk_bytes);
 
   for (;;) {
     size_t br = fread(buf, 1, chunk_bytes, fp);
     total += br;
     read_count++;
 
+    // Progress logging every 20 reads
+    if (read_count % 20 == 0) {
+      ESP_LOGI(TAG, "Read %d chunks, %zu bytes total (%.1f%% complete)",
+               read_count, total, (total * 100.0) / file_size);
+    }
+
     // Check for EOF or short read (end of file)
     if (br < chunk_bytes) {
       ESP_LOGI(TAG, "EOF reached: got %zu bytes (expected %zu), file complete",
                br, chunk_bytes);
       break;  // EOF or short read - file is complete
+    }
+
+    // Safety check to prevent infinite loops
+    if (read_count > 10000) {
+      ESP_LOGW(TAG, "Too many reads (%d), breaking loop for safety",
+               read_count);
+      break;
     }
 
     // Additional safety check based on file size
