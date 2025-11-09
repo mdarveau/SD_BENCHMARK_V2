@@ -168,9 +168,8 @@ static void bench_safe_fread(const char *path) {
   int64_t dt = esp_timer_get_time() - t0;
 
   ESP_LOGI(TAG, "Safe fread %s %u bytes in %lld us: %.1f KB/s (%.2f MB/s)",
-           path, (unsigned)total, (long long)dt,
-           (total / 1024.0) / (dt / 1000000.0),
-           ((total / 1024.0) / (dt / 1000000.0)) / 1024.0);
+           path, (unsigned)total, (long long)dt, kbps(total, dt),
+           kbps(total, dt) / 1024.0);
 
   heap_caps_free(buf);
   fclose(fp);
@@ -178,6 +177,18 @@ static void bench_safe_fread(const char *path) {
 
 static esp_err_t init_spi(sdmmc_host_t host, spi_bus_config_t bus_cfg) {
   ESP_LOGI(TAG, "Initializing SD (SPI mode)...");
+
+  // Ensure CS idles high prior to bus init
+  gpio_config_t cs_cfg = {
+      .pin_bit_mask = 1ULL << SD_CS,
+      .mode = GPIO_MODE_OUTPUT,
+      .pull_up_en = GPIO_PULLUP_DISABLE,
+      .pull_down_en = GPIO_PULLDOWN_DISABLE,
+      .intr_type = GPIO_INTR_DISABLE,
+  };
+  gpio_config(&cs_cfg);
+  gpio_set_level(SD_CS, 1);
+
   CHECK(spi_bus_initialize(host.slot, &bus_cfg, SPI_DMA_CH_AUTO),
         "spi_bus_initialize");
   // Allow shifters/power to settle before card init
@@ -243,9 +254,14 @@ static void unmount_and_free_bus(void) {
 #define READ_ON_FIRST_MOUNT 0
 
 void app_main(void) {
+  // Delay start to avoid current spikes (maybe?)
+  vTaskDelay(pdMS_TO_TICKS(200));
+
   ESP_LOGI(TAG, "Starting SD benchmark!");
 
   sdmmc_host_t host = SDSPI_HOST_DEFAULT();
+  // host.max_freq_khz = 26000;
+
   spi_bus_config_t bus_cfg = {.mosi_io_num = SD_MOSI,
                               .miso_io_num = SD_MISO,
                               .sclk_io_num = SD_SCK,
