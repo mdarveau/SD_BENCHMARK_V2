@@ -260,6 +260,9 @@ void app_main(void) {
     return;
   }
   if (READ_ON_FIRST_MOUNT) {
+    if (mount_sdcard_at(host, bus_cfg) != ESP_OK) {
+      return;
+    }
     bench_vfs_fread(TEST_FILE_VFS_LARGE);
     bench_safe_fread(TEST_FILE_VFS_LARGE);
   }
