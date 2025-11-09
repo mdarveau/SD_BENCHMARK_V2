@@ -176,34 +176,17 @@ static void bench_safe_fread(const char *path) {
   fclose(fp);
 }
 
-static esp_err_t init_and_mount_sdcard_at(int max_freq_khz) {
-  ESP_LOGI(TAG, "Initializing SD (SPI mode) @ %d kHz...", max_freq_khz);
-  sdmmc_host_t host = SDSPI_HOST_DEFAULT();
-  host.slot = s_host_slot;  // HSPI
-  host.max_freq_khz = max_freq_khz;
-
-  // Ensure CS idles high prior to bus init
-  gpio_config_t cs_cfg = {
-      .pin_bit_mask = 1ULL << SD_CS,
-      .mode = GPIO_MODE_OUTPUT,
-      .pull_up_en = GPIO_PULLUP_DISABLE,
-      .pull_down_en = GPIO_PULLDOWN_DISABLE,
-      .intr_type = GPIO_INTR_DISABLE,
-  };
-  gpio_config(&cs_cfg);
-  gpio_set_level(SD_CS, 1);
-
-  spi_bus_config_t bus_cfg = {.mosi_io_num = SD_MOSI,
-                              .miso_io_num = SD_MISO,
-                              .sclk_io_num = SD_SCK,
-                              .quadwp_io_num = -1,
-                              .quadhd_io_num = -1,
-                              .max_transfer_sz = 128 * 1024};
+static esp_err_t init_spi(sdmmc_host_t host, spi_bus_config_t bus_cfg) {
+  ESP_LOGI(TAG, "Initializing SD (SPI mode)...");
   CHECK(spi_bus_initialize(host.slot, &bus_cfg, SPI_DMA_CH_AUTO),
         "spi_bus_initialize");
   // Allow shifters/power to settle before card init
   vTaskDelay(pdMS_TO_TICKS(20));
+  return ESP_OK;
+}
 
+static esp_err_t mount_sdcard_at(sdmmc_host_t host, spi_bus_config_t bus_cfg) {
+  ESP_LOGI(TAG, "Mounting SD card at %s...", MOUNT_POINT);
   sdspi_device_config_t slot_cfg = SDSPI_DEVICE_CONFIG_DEFAULT();
   slot_cfg.gpio_cs = SD_CS;
   slot_cfg.host_id = host.slot;
@@ -234,8 +217,18 @@ static esp_err_t init_and_mount_sdcard_at(int max_freq_khz) {
     }
   }
   sdmmc_card_print_info(stdout, s_card);
-  ESP_LOGI(TAG, "card->max_freq_khz=%d (host asked %d)", s_card->max_freq_khz,
-           max_freq_khz);
+  ESP_LOGI(TAG, "card->max_freq_khz=%d", s_card->max_freq_khz);
+  return ESP_OK;
+}
+
+static esp_err_t init_and_mount_sdcard_at(sdmmc_host_t host,
+                                          spi_bus_config_t bus_cfg) {
+  if (init_spi(host, bus_cfg) != ESP_OK) {
+    return ESP_ERR_INVALID_STATE;
+  }
+  if (mount_sdcard_at(host, bus_cfg) != ESP_OK) {
+    return ESP_ERR_INVALID_STATE;
+  }
   return ESP_OK;
 }
 
@@ -252,10 +245,18 @@ static void unmount_and_free_bus(void) {
 void app_main(void) {
   ESP_LOGI(TAG, "Starting SD benchmark!");
 
+  sdmmc_host_t host = SDSPI_HOST_DEFAULT();
+  spi_bus_config_t bus_cfg = {.mosi_io_num = SD_MOSI,
+                              .miso_io_num = SD_MISO,
+                              .sclk_io_num = SD_SCK,
+                              .quadwp_io_num = -1,
+                              .quadhd_io_num = -1,
+                              .max_transfer_sz = 128 * 1024};
+
   // First mount: for some reason, the performance is quite bad on the first
-  // mount
+  // spi init
   ESP_LOGI(TAG, "First mount...");
-  if (init_and_mount_sdcard_at(26000) != ESP_OK) {
+  if (init_spi(host, bus_cfg) != ESP_OK) {
     return;
   }
   if (READ_ON_FIRST_MOUNT) {
@@ -268,7 +269,7 @@ void app_main(void) {
 
   // Second mount: ensure fast path
   ESP_LOGI(TAG, "Second mount...");
-  if (init_and_mount_sdcard_at(26000) != ESP_OK) {
+  if (init_and_mount_sdcard_at(host, bus_cfg) != ESP_OK) {
     return;
   }
   bench_vfs_fread(TEST_FILE_VFS_LARGE);
